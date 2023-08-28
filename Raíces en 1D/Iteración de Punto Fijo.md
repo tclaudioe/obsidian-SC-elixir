@@ -31,6 +31,18 @@ for i in np.arange(30):
 
 La cual genera un **punto fijo** cercano al punto $r\approx0.7390851332151607$.
 
+```run-python
+# Visual version
+
+x0 = 1.0
+g = lambda x : np.cos(x)
+x = fpi_reduced(g,x0,k=10)
+print('x:', x)
+
+f = cobweb_reduced(x,g)
+plt.show()
+
+```
 # Aplicaciones
 - Búsqueda de raíces #root. Considere la función $f(x)$, uno podría construir una #IPF que encuentre la raíz de la función,  recuerde que la raíz satisface la siguiente ecuación: $f(r)=0$, ahora, considere el siguiente desarrollo. Notar que no es necesario conocer la raíz $r$: $$
   \begin{align}

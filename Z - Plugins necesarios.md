@@ -8,6 +8,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import bitstring as bs
 
+##############################################
+##############################################
+##############################################
+
 # This function shows the bits used for the sign, exponent and mantissa for a 64-bit double presision number.
 # fps: Floating Point Standard
 # Double: Double precision IEEE 754
@@ -16,6 +20,10 @@ def to_fps_double(f):
     b = b.bin
     #show sign + exponent + mantisa
     print(b[0]+' '+b[1:12]+ ' '+b[12:])
+
+##############################################
+##############################################
+##############################################
 
 def bisect(f, a, b, tol=1e-5, maxNumberIterations=100, usePandas=False):
     # Evaluating the extreme points of the interval provided
@@ -71,4 +79,42 @@ def bisect(f, a, b, tol=1e-5, maxNumberIterations=100, usePandas=False):
     # Computing the best approximation obtaind for the root, which is the midpoint of the final interval.
     xc = (a+b)/2.
     return xc
+
+##############################################
+##############################################
+##############################################
+
+def fpi_reduced(g, x0, k=10):
+    x = np.zeros(k+1)
+    x[0] = x0
+    for i in range(k):
+        x[i+1] = g(x[i])
+    return x
+
+def cobweb_reduced(x,g=None):
+	min_x = np.amin(x)
+	max_x = np.amax(x)
+	
+	f = plt.figure()
+	plt.plot(np.array([min_x,max_x]),np.array([min_x,max_x]),'b-',label='$x$')
+	for i in np.arange(x.size-1):
+		plt.plot([x[i], x[i]], [x[i], x[i+1]], '-k')
+		plt.plot([x[i], x[i+1]], [x[i+1], x[i+1]], '-k')
+	
+	if g!=None:
+		y = np.linspace(min_x,max_x,1000)
+		plt.plot(y,g(y),'r',label='$g(x)$')
+	
+	plt.title('Cobweb diagram')
+	plt.grid(True)
+	plt.legend(loc='best',fontsize=16)
+	plt.axis('equal')
+	#plt.show()
+	return f
+
+##############################################
+##############################################
+##############################################
+
+
 ``` 
