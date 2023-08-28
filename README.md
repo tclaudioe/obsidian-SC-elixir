@@ -1,2 +1,2 @@
 # obsidian-SC-elixir
-A summary of Scientific Computing - INF-285
+A summary of Scientific Computing - INF-285 - DI - UTFSM
