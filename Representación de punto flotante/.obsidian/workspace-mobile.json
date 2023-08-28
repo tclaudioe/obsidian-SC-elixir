@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "42a6b134c7543314",
+    "type": "split",
+    "children": [
+      {
+        "id": "543b0d00e2a47892",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e6a830e5fca7a04",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e84bc92bb4ebe6d2",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b37c3edf3798179a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2a88ed3133c1eaaf",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d4c37ead9770d377",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "7c4ba929d8f07ec2",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "986210f70ebe36ea",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9badf9bec75cd91d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "88155acae902cd3e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "dffa3bc2fb70d82a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8e6a830e5fca7a04",
+  "lastOpenFiles": [
+    "Untitled",
+    "Regla de redondeo.md",
+    "Bits del exponente solo de 1s.md",
+    "Representación de máquina.md",
+    "Machine Epsilon.md",
+    "Estándar de punto flotante IEEE 754.md",
+    "Bits del exponente solo de 0s.md"
+  ]
+}
