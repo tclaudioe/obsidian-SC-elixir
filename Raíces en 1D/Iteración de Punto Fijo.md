@@ -43,20 +43,33 @@ plt.show()
 ```
 
 # Ejemplo 2
+Considere la siguiente iteración de punto $g(x)=2\,\cos(x)$, con _initial guess_ $x_0=1.0$. ¿Se puede corregir la iteración de punto fijo tal que se puede efectivamente llegar al punto fijo $r=2\,\cos(r)$? La respuesta es sí. Ver más abajo la nueva iteración de punto fijo convergente.
 ```run-python
 # Visual version
 
 x0 = 1.0
 g = lambda x : 2*np.cos(x)
-# G = lambda x : x+(-1/(1+2*np.sin(1)))*(x-g(x))
 x = fpi_reduced(g,x0,k=10)
 print('x:', x)
 
-f = cobweb_reduced(x,g)
+f = cobweb2(x,g)
 plt.show()
 
 ```
 
+```run-python
+# Visual version
+
+x0 = 1.0
+g = lambda x : 2*np.cos(x)
+G = lambda x : x+(-1/(1+2*np.sin(1)))*(x-g(x))
+x = fpi_reduced(G,x0,k=10)
+print('x:', x)
+
+f = cobweb2(x,G)
+plt.show()
+
+```
 # Aplicaciones
 - Búsqueda de raíces #root. Considere la función $f(x)$, uno podría construir una #IPF que encuentre la raíz de la función,  recuerde que la raíz satisface la siguiente ecuación: $f(r)=0$, ahora, considere el siguiente desarrollo. Notar que no es necesario conocer la raíz $r$: $$
   \begin{align}

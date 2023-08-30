@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1619c48f680c2d59",
+        "id": "b52a6db804bd1fa4",
         "type": "tabs",
         "children": [
           {
-            "id": "f91a34458886f106",
+            "id": "2babe4917a3c1720",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Raíces en 1D/Raíces en 1D.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raíces en 1D/Raíces en 1D.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raíces en 1D/Raíces en 1D.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Raíces en 1D/Raíces en 1D.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,14 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f91a34458886f106",
+  "active": "2babe4917a3c1720",
   "lastOpenFiles": [
-    "Raíces en 1D/Método de la Secante.md",
-    "Raíces en 1D/Raíces en 1D.md",
+    "Raíces en 1D/Método de la Bisección.md",
+    "Raíces en 1D/Iteración de Punto Fijo.md",
     "ROOT - Computación Científica.md",
     "Z - Agradecimientos y registro de cambios.md",
+    "Raíces en 1D/Raíces en 1D.md",
+    "Raíces en 1D/Método de la Secante.md",
     "Z - Plugins necesarios.md",
-    "Raíces en 1D/Iteración de Punto Fijo.md",
     "Pérdida de importancia y errores de cancelación.md",
     "Raíces en 1D/Método de Newton.md",
     "Raíces en 1D/Convergencia Numérica.md",
@@ -162,7 +155,6 @@
     "README.md",
     "Representación de punto flotante/Regla de redondeo.md",
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "Raíces en 1D/Método de la Bisección.md",
     "Representación de punto flotante/Representación de máquina.md",
     "Representación de punto flotante/Bits del exponente solo de 0s.md",
     "Representación de punto flotante/Bits del exponente solo de 1s.md",
