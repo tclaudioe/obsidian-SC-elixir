@@ -91,25 +91,27 @@ def fpi_reduced(g, x0, k=10):
         x[i+1] = g(x[i])
     return x
 
-def cobweb_reduced(x,g=None):
-	min_x = np.amin(x)
-	max_x = np.amax(x)
-	
-	f = plt.figure()
-	plt.plot(np.array([min_x,max_x]),np.array([min_x,max_x]),'b-',label='$x$')
-	for i in np.arange(x.size-1):
-		plt.plot([x[i], x[i]], [x[i], x[i+1]], '-k')
-		plt.plot([x[i], x[i+1]], [x[i+1], x[i+1]], '-k')
-	
-	if g!=None:
-		y = np.linspace(min_x,max_x,1000)
-		plt.plot(y,g(y),'r',label='$g(x)$')
-	
-	plt.title('Cobweb diagram')
-	plt.grid(True)
-	plt.legend(loc='best',fontsize=16)
-	plt.axis('equal')
-	#plt.show()
+def cobweb2(x,g=None):
+    min_x = np.amin(x)
+    max_x = np.amax(x)
+    
+    f = plt.figure()
+    ax = plt.axes()
+    plt.plot(np.array([min_x,max_x]),np.array([min_x,max_x]),'b-')
+    for i in np.arange(x.size-1):
+        delta_x = x[i+1]-x[i]
+        head_length =  np.abs(delta_x)*0.04
+        arrow_length = delta_x-np.sign(delta_x)*head_length
+        ax.arrow(x[i], x[i], 0, arrow_length, head_width=1.5*head_length, head_length=head_length, fc='k', ec='k')
+        ax.arrow(x[i], x[i+1], arrow_length, 0, head_width=1.5*head_length, head_length=head_length, fc='k', ec='k')
+    
+    if g!=None:
+        y = np.linspace(min_x,max_x,1000)
+        plt.plot(y,g(y),'r')
+    
+    plt.title('Cobweb diagram')
+    plt.grid(True)
+    #plt.show()
 	return f
 
 ##############################################

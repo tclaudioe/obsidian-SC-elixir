@@ -1,4 +1,4 @@
-**Versión: v0.105 - 20230828**
+**Versión: v0.106 - 20230830**
 
 # Readme first!
 - [[Z - Plugins necesarios]]

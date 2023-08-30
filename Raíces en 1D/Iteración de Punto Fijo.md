@@ -18,24 +18,37 @@ ver [[Criterio de detención para búsqueda de raíces 1D]]
 1. **Ventaja**: Muy simple de implementar y generalizar!
 2. **Desventaja**: La construcción de funciones $g(x)$ puede generar iteraciones convergentes y divergentes.
 
-# Ejemplo
+# Ejemplo 1
 Función $g(x)=\cos(x)$ con *initial guess* $x_0=1.0$.
 ```run-python
 xi = 1.0
 g = lambda x : np.cos(x)
 for i in np.arange(30):
 	xi = g(xi)
-	if np.mod(i,3) == 0: # Just to show fewer output lines
-		print(xi)
+	# if np.mod(i,3) == 0: # Just to show fewer output lines
+	print(xi)
 ```
 
 La cual genera un **punto fijo** cercano al punto $r\approx0.7390851332151607$.
 
 ```run-python
 # Visual version
-
 x0 = 1.0
 g = lambda x : np.cos(x)
+# G = lambda x : x+(-1/(1+2*np.sin(1)))*(x-g(x))
+x = fpi_reduced(g,x0,k=10)
+print('x:', x)
+f = cobweb2(x,g)
+plt.show()
+```
+
+# Ejemplo 2
+```run-python
+# Visual version
+
+x0 = 1.0
+g = lambda x : 2*np.cos(x)
+# G = lambda x : x+(-1/(1+2*np.sin(1)))*(x-g(x))
 x = fpi_reduced(g,x0,k=10)
 print('x:', x)
 
@@ -43,6 +56,7 @@ f = cobweb_reduced(x,g)
 plt.show()
 
 ```
+
 # Aplicaciones
 - Búsqueda de raíces #root. Considere la función $f(x)$, uno podría construir una #IPF que encuentre la raíz de la función,  recuerde que la raíz satisface la siguiente ecuación: $f(r)=0$, ahora, considere el siguiente desarrollo. Notar que no es necesario conocer la raíz $r$: $$
   \begin{align}
