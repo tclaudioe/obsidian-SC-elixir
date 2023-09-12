@@ -3,3 +3,4 @@
 - 2023/08/24 - v0.104 - Prof. C. Torres - actualización [[Pérdida de importancia y errores de cancelación]], [[Método de la Secante]], [[Bits del exponente solo de 1s]], [[Pérdida de importancia y errores de cancelación]].
 - 2023/08/28 - v0.105 - Prof. C. Torres - se incluye "soporte" para GitHub y diagrama "cobweb" en [[Iteración de Punto Fijo]].
 - 2023/08/30 - v0.106 - Prof. C. Torres - se actualiza diagrama cobweb en [[Iteración de Punto Fijo]] y se agrega el Ejemplo 2.
+- 2023/09/11 - v0.107 - Prof. C. Torres - actualización de links en archivo "ROOT", actualización de [[Resolución numérica de sistemas de ecuaciones lineales]]. Creación de [[Resolución numérica de sistemas de ecuaciones no-lineales]], [[Backward Substitution]], [[Forward Substitution]], [[Eliminación Gaussiana]], [[Factorización LU]], [[Factorización PALU]], [[Jacobi]].

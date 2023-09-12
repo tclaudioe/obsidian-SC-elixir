@@ -8,8 +8,8 @@ Organizar las ideas, conceptos y algoritmos discutidos en el curso de Computaci�
 
 # Pre-requisitos: 
 - Álgebra Lineal
-	- [Esencia del álgebra lineal](https://computacioncientifica.page.link/kKht) - Playlist de [3Blue1Brown](https://www.youtube.com/@3blue1brownespanol)
-	- [Eigenvalues & Eigenvectors](https://computacioncientifica.page.link/gZ9b) - Video
+	- [Esencia del álgebra lineal](https://www.youtube.com/watch?v=0Ndnzx6AyaA&list=PLIb_io8a5NB2DddFf-PwvZDCOUNT1GZoA) - Playlist de [3Blue1Brown](https://www.youtube.com/@3blue1brownespanol)
+	- [Eigenvalues & Eigenvectors](https://www.youtube.com/watch?v=ZoBA6gje2a0) - Video
 	- [Introduction to Linear Algebra](https://github.com/microsoft/QuantumKatas/blob/main/tutorials/LinearAlgebra/LinearAlgebra.ipynb) - Jupyter Notebook
 	- [Linear Algebra Cheatsheet](https://math.berkeley.edu/~peyam/Math54Fa11/Cheat%20Sheets/Cheat%20Sheet%20(regular%20font).pdf) - Cheatsheet PDF
 - Cálculo diferencial e integral, i.e. desde Matemáticas I a Matemáticas IV

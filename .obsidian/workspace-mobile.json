@@ -11,8 +11,12 @@
             "id": "552a2262e5c07b86",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas de Ecuaciones Lineales/Factorización LU.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Sistemas de Ecuaciones Lineales/Factorización LU.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Sistemas de Ecuaciones Lineales/Factorización LU.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Sistemas de Ecuaciones Lineales/Factorización LU.md"
+          }
         }
       }
     ],
@@ -125,8 +133,9 @@
   },
   "active": "552a2262e5c07b86",
   "lastOpenFiles": [
-    "Convergencia Numérica.md",
     "versión numérica.md",
+    "README.md",
+    "Convergencia Numérica.md",
     "Convergencia de una Iteración de Punto Fijo.md",
     "Diferencias Finitas.md",
     "Agradecimientos.md",

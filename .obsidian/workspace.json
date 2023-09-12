@@ -11,8 +11,12 @@
             "id": "2babe4917a3c1720",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 552.5
   },
   "right": {
     "id": "adfbb7f5bdd2dc4c",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "06a4ff0ab87304b3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ]
@@ -140,32 +158,33 @@
   },
   "active": "2babe4917a3c1720",
   "lastOpenFiles": [
-    "Raíces en 1D/Método de la Bisección.md",
-    "Raíces en 1D/Iteración de Punto Fijo.md",
-    "ROOT - Computación Científica.md",
-    "Z - Agradecimientos y registro de cambios.md",
-    "Raíces en 1D/Raíces en 1D.md",
-    "Raíces en 1D/Método de la Secante.md",
     "Z - Plugins necesarios.md",
-    "Pérdida de importancia y errores de cancelación.md",
-    "Raíces en 1D/Método de Newton.md",
-    "Raíces en 1D/Convergencia Numérica.md",
-    "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
+    "Z - Agradecimientos y registro de cambios.md",
     "versión numérica.md",
-    "README.md",
-    "Representación de punto flotante/Regla de redondeo.md",
-    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "Representación de punto flotante/Representación de máquina.md",
-    "Representación de punto flotante/Bits del exponente solo de 0s.md",
-    "Representación de punto flotante/Bits del exponente solo de 1s.md",
-    "Representación de punto flotante/Machine Epsilon.md",
-    "Algoritmos de integración numérica.md",
-    "Diferencias Finitas.md",
+    "ROOT - Computación Científica.md",
     "Resolución numérica de sistemas de ecuaciones no-lineales.md",
     "Resolución numérica de sistemas de ecuaciones lineales.md",
+    "README.md",
     "Problemas de mínimos cuadrados.md",
-    "Representación de punto flotante/Diferencias Finitas.md",
+    "Pérdida de importancia y errores de cancelación.md",
     "Ecuaciones diferenciales ordinarias.md",
+    "Diferencias Finitas.md",
+    "Algoritmos de integración numérica.md",
+    "Sistemas de Ecuaciones Lineales/Jacobi.md",
+    "Sistemas de Ecuaciones Lineales/GMRes.md",
+    "Sistemas de Ecuaciones Lineales/Gauss-Seidel.md",
+    "Sistemas de Ecuaciones Lineales/Forward Substitution.md",
+    "Sistemas de Ecuaciones Lineales/Factorización PALU.md",
+    "Sistemas de Ecuaciones Lineales/Factorización LU.md",
+    "Sistemas de Ecuaciones Lineales/Eliminación Gaussiana.md",
+    "Sistemas de Ecuaciones Lineales/Backward Substitution.md",
+    "Raíces en 1D/Iteración de Punto Fijo.md",
+    "Raíces en 1D/Método de Newton.md",
+    "Raíces en 1D/Raíces en 1D.md",
+    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
+    "Sistemas de Ecuaciones Lineales",
+    "Raíces en 1D/Método de la Bisección.md",
+    "Raíces en 1D/Método de la Secante.md",
     "Raíces en 1D"
   ]
 }
