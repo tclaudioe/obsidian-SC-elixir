@@ -27,6 +27,27 @@
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "#logFile",
+      "color": {
+        "a": 1,
+        "rgb": 16749594
+      }
+    },
+    {
+      "query": "#pluginsRequired",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
     }
   ],
   "collapse-display": true,
@@ -39,6 +60,6 @@
   "repelStrength": 9.88118489583333,
   "linkStrength": 1,
   "linkDistance": 196,
-  "scale": 1.6432044810603876,
+  "scale": 0.7229475844909174,
   "close": true
 }

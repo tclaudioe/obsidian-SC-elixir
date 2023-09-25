@@ -1,4 +1,4 @@
-**Versión: v0.106 - 20230830**
+**Versión:** ver [[Z - Agradecimientos y registro de cambios]].
 
 # Readme first!
 - [[Z - Plugins necesarios]]
@@ -32,6 +32,7 @@ Organizar las ideas, conceptos y algoritmos discutidos en el curso de Computaci�
 - [[Raíces en 1D]]
 - [[Resolución numérica de sistemas de ecuaciones lineales]]
 - [[Resolución numérica de sistemas de ecuaciones no-lineales]]
+- [[Interpolación Polinomial]]
 - [[Problemas de mínimos cuadrados]]
 - [[Algoritmos de integración numérica]]
 - [[Ecuaciones diferenciales ordinarias]]

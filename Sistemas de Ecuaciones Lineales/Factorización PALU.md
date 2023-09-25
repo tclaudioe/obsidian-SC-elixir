@@ -65,7 +65,7 @@ P \, A \, \mathbf{x} &= P\,\mathbf{b}\\
 \end{bmatrix}\\
 \begin{bmatrix}
 	1 & 2\\
-	\delta & 1
+	10^{-20} & 1
 \end{bmatrix}
 \begin{bmatrix}
 	x_1\\

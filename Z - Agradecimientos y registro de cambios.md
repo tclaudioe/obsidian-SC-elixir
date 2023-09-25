@@ -4,3 +4,5 @@
 - 2023/08/28 - v0.105 - Prof. C. Torres - se incluye "soporte" para GitHub y diagrama "cobweb" en [[Iteración de Punto Fijo]].
 - 2023/08/30 - v0.106 - Prof. C. Torres - se actualiza diagrama cobweb en [[Iteración de Punto Fijo]] y se agrega el Ejemplo 2.
 - 2023/09/11 - v0.107 - Prof. C. Torres - actualización de links en archivo "ROOT", actualización de [[Resolución numérica de sistemas de ecuaciones lineales]]. Creación de [[Resolución numérica de sistemas de ecuaciones no-lineales]], [[Backward Substitution]], [[Forward Substitution]], [[Eliminación Gaussiana]], [[Factorización LU]], [[Factorización PALU]], [[Jacobi]].
+- 2023/09/25 - v0.108 - Prof. C. Torres - Se incluye [[Interpolación Polinomial]], [[Interpolación con la matriz de Vandermonde]], [[Interpolación de Lagrange]], y [[Interpolación Baricéntrica]].
+#logFile
