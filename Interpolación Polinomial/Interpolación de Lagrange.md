@@ -37,3 +37,5 @@ La idea es la misma, pero ahora tendremos $n$ pares ordenados, digamos: $(x_1,y_
 - La construcción del polinomio interpolador requiere $\sim 2\,n^2$ operaciones elementales.
 - Tampoco es recomendable para valores de $n$ grandes.
 - La evaluación tiene un costo computacional  $\sim 2\,n^2$ operaciones elementales.
+
+#OK 

@@ -48,3 +48,5 @@ Considere que tiene a su disposición los puntos $(x_1,y_1)$ y $(x_2,y_2)$.
 - En $\verb|SciPy|$ ver [scipy.interpolate.barycentric_interpolate](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.barycentric_interpolate.html#scipy.interpolate.barycentric_interpolate) y [scipy.interpolate.BarycentricInterpolator](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.BarycentricInterpolator.html#scipy.interpolate.BarycentricInterpolator).
 # Desventajas
 - La teoría es más _intensa_ que en los algoritmos anteriores, pero vale la pena!
+
+#OK 

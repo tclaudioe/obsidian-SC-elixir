@@ -57,8 +57,18 @@ plt.show()
 	- En esta sección es crítico considerar que los datos $x_i$ son todos distintos, pueden estar cerca pero deben ser distintos.
 	- El interpolador polinomial es único, así que da lo mismo como se construya, considerando aritmética exacta.
 	- El polinomio interpolador de $n$ puntos puede ser a lo más de grado $n-1$ o menor.
-# Algoritmos a estudiar
+# Algoritmos de interpolación a estudiar
 
 - [[Interpolación con la matriz de Vandermonde]]
 - [[Interpolación de Lagrange]]
 - [[Interpolación Baricéntrica]]
+
+# Más teoría y aplicaciones de interpolación polinomial
+
+Una de las principales aplicaciones de interpolación polinomial es para aproximar funciones, digamos $f(x)$. Y uno de las razones para utilizar alguno de los algoritmos estudiados anteriormente, es que solo requiere la utilización de operaciones elementales, que son lo que mejor hace un procesador!
+
+- [[Error de Interpolación Polinomial]]
+- [[Fenómeno de Runge]]
+- [[Puntos de Chebyshev]]
+
+#OK 

@@ -1,4 +1,7 @@
 {
   "showLineNumber": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "CONFIG/"
+  ]
 }

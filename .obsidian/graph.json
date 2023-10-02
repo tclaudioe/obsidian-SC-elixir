@@ -29,13 +29,6 @@
       }
     },
     {
-      "query": "#logFile",
-      "color": {
-        "a": 1,
-        "rgb": 16749594
-      }
-    },
-    {
       "query": "#pluginsRequired",
       "color": {
         "a": 1,
@@ -50,16 +43,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -1.8,
   "nodeSizeMultiplier": 1.691064453125,
   "lineSizeMultiplier": 2.9962158203125,
   "collapse-forces": false,
-  "centerStrength": 0.220621744791667,
-  "repelStrength": 9.88118489583333,
+  "centerStrength": 0.437525382428591,
+  "repelStrength": 5.93068904832814,
   "linkStrength": 1,
   "linkDistance": 196,
-  "scale": 0.7229475844909174,
-  "close": true
+  "scale": 1.474923698138886,
+  "close": false
 }

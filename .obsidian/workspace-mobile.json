@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas de Ecuaciones Lineales/Factorización LU.md",
+                "file": "Pérdida de importancia y errores de cancelación.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Sistemas de Ecuaciones Lineales/Factorización LU.md",
+            "file": "Pérdida de importancia y errores de cancelación.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Sistemas de Ecuaciones Lineales/Factorización LU.md",
+            "file": "Pérdida de importancia y errores de cancelación.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Sistemas de Ecuaciones Lineales/Factorización LU.md"
+            "file": "Pérdida de importancia y errores de cancelación.md"
           }
         }
       }
@@ -131,13 +131,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "552a2262e5c07b86",
+  "active": "fea62f42e2882917",
   "lastOpenFiles": [
+    "Sistemas de Ecuaciones Lineales/Eliminación Gaussiana.md",
+    "Resolución numérica de sistemas de ecuaciones lineales.md",
+    "Representación de punto flotante/Representación de máquina.md",
+    "Diferencias Finitas.md",
+    "Sistemas de Ecuaciones Lineales/Factorización LU.md",
     "versión numérica.md",
     "README.md",
     "Convergencia Numérica.md",
     "Convergencia de una Iteración de Punto Fijo.md",
-    "Diferencias Finitas.md",
     "Agradecimientos.md",
     "Representación de punto flotante/Regla de redondeo.md",
     "Representación de punto flotante/Machine Epsilon.md",
@@ -145,19 +149,15 @@
     "Raíces en 1D/Método de la Bisección.md",
     "Raíces en 1D/Raíces en 1D.md",
     "Raíces en 1D/Método de Newton.md",
-    "Representación de punto flotante/Representación de máquina.md",
     "Pérdida de importancia y errores de cancelación.md",
     "Raíces en 1D/Método de la Secante.md",
     "ROOT - Computación Científica.md",
     "Raíces en 1D/Iteración de Punto Fijo.md",
-    "Resolución numérica de sistemas de ecuaciones lineales.md",
     "Plugins necesarios.md",
     "Representación de punto flotante/Bits del exponente solo de 1s.md",
     "Algoritmos de integración numérica.md",
     "Ecuaciones diferenciales ordinarias.md",
     "Problemas de mínimos cuadrados.md",
-    "Resolución numérica de sistemas de ecuaciones no-lineales.md",
-    "Representación de punto flotante/Bits del exponente solo de 0s.md",
-    "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md"
+    "Resolución numérica de sistemas de ecuaciones no-lineales.md"
   ]
 }

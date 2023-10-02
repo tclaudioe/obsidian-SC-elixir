@@ -7,6 +7,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import bitstring as bs
+from scipy.interpolate import BarycentricInterpolator
 
 ##############################################
 ##############################################

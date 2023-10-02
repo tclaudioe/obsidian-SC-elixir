@@ -80,3 +80,5 @@ La idea es la misma, pero ahora tendremos $n$ pares ordenados, digamos: $(x_1,y_
 - Resolver el sistema de ecuaciones lineales tiene un costo computacional $\sim \dfrac{2}{3} n^3$ si se utiliza [[Factorización PALU]].
 - El número de condición $\kappa(V_n)$, donde $V_n$ es la matriz de Vandermonde, es en general muy alto, por lo que se considera que es un sistema de ecuaciones lineales mal condicionado, lo que implica que no es recomendado trabajar con esa matriz de forma directa. Ver la sección de _Consideraciones Adicionales_ en [[Resolución numérica de sistemas de ecuaciones lineales]].
 - Evaluar el polinomio interpolador $p_{n-1}(x) = \sum_{i=0}^{n-1} a_{i}\,x^i$ sin ninguna optimización tiene un costo computacional de $\sim \dfrac{n^2}{2}$.
+
+#OK 
