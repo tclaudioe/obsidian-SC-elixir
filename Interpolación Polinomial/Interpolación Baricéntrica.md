@@ -50,3 +50,4 @@ Considere que tiene a su disposición los puntos $(x_1,y_1)$ y $(x_2,y_2)$.
 - La teoría es más _intensa_ que en los algoritmos anteriores, pero vale la pena!
 
 #OK 
+#Tema_6

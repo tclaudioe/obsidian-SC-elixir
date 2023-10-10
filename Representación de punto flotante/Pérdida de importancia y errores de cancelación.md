@@ -13,7 +13,7 @@ Para entender la pérdida de importancia nos podemos basar en la representación
         	\end{tikzpicture}
 \end{document}
 ```
-donde $\epsilon_{\text{mach}}$ representa [Machine Epsilon](Machine%20Epsilon.md). De la [Estándar de punto flotante IEEE 754](Estándar%20de%20punto%20flotante%20IEEE%20754.md) recordamos que en #doublePrecision (y otros formatos) solo se puede representar un conjunto de números reales, en este caso corresponde a los número $1$ y $1+\epsilon_{\text{mach}}$. También, de la [Regla de redondeo](Regla%20de%20redondeo.md), sabemos que debemos tomar una decisión si queremos almacenar el número real $x$, es decir, debemos almacenar $1$ o $1+\epsilon_{\text{mach}}$, en este caso. La situación se extiende a toda la recta numérica al utilizar #doublePrecision u otro formato de máquina ([Representación de máquina](Representación%20de%20máquina.md)) definido con un cantidad finita de *bits*.
+donde $\epsilon_{\text{mach}}$ representa [Machine Epsilon](Machine%20Epsilon.md). Del [Estándar de punto flotante IEEE 754](Estándar%20de%20punto%20flotante%20IEEE%20754.md) recordamos que en #doublePrecision (y otros formatos) solo se puede representar un conjunto de números reales, en este caso corresponde a los número $1$ y $1+\epsilon_{\text{mach}}$. También, de la [Regla de redondeo](Regla%20de%20redondeo.md), sabemos que debemos tomar una decisión si queremos almacenar el número real $x$, es decir, debemos almacenar $1$ o $1+\epsilon_{\text{mach}}$, en este caso. La situación se extiende a toda la recta numérica al utilizar #doublePrecision u otro formato de máquina ([Representación de máquina](Representación%20de%20máquina.md)) definido con un cantidad finita de *bits*.
 Ahora, ¿Cómo afecta esto la computación y/o evaluación de expresiones matemáticas considerando ?
 Para entender esto, se presentan 2 ejemplos:
 # Ejemplo 1: Pérdida de importancia
@@ -85,4 +85,4 @@ print(epsMach/16)
 - [Ecuación cuadrática](https://github.com/tclaudioe/Scientific-Computing/blob/master/SC1v2/Bonus%20-%2002%20-%20Quadratic%20formula.ipynb)
 
 #OK
-
+#Tema_2

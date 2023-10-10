@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cfe658f85cd053df",
+        "id": "f5ee014dae27800d",
         "type": "tabs",
         "children": [
           {
-            "id": "13dd117a0b3938fe",
+            "id": "d287361a33037a33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
+                "file": "ROOT - Computación Científica.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.50390243530273
+    "width": 374.50390243530273
   },
   "right": {
     "id": "adfbb7f5bdd2dc4c",
@@ -85,14 +85,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
+                "file": "ROOT - Computación Científica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
+                "file": "ROOT - Computación Científica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mínimos Cuadrados/Problemas de mínimos cuadrados.md"
+                "file": "ROOT - Computación Científica.md"
               }
             }
           },
@@ -156,36 +156,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13dd117a0b3938fe",
+  "active": "d287361a33037a33",
   "lastOpenFiles": [
+    "TEST.md",
     "ROOT - Computación Científica.md",
+    "Mínimos Cuadrados/Factorización QR.md",
+    "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
+    "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
+    "CONFIG/Z - Agradecimientos y registro de cambios.md",
+    "Sistemas de Ecuaciones Lineales/Backward Substitution.md",
+    "Sistemas de Ecuaciones Lineales/Forward Substitution.md",
+    "Resolución numérica de sistemas de ecuaciones lineales.md",
+    "Algoritmos de integración numérica.md",
+    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+    "QR.md",
+    "Factorización QR.md",
     "README.md",
-    "CONFIG/Z - Plugins necesarios.md",
+    "Mínimos Cuadrados/Mínimos cuadrados por minimización.md",
+    "Interpolación Polinomial/Interpolación Polinomial.md",
+    "Interpolación Polinomial/Puntos de Chebyshev.md",
+    "Interpolación Polinomial/Fenómeno de Runge.md",
+    "Interpolación Polinomial/Error de Interpolación Polinomial.md",
+    "Interpolación Polinomial/Interpolación Baricéntrica.md",
+    "Interpolación Polinomial/Interpolación de Lagrange.md",
+    "Interpolación Polinomial/Interpolación con la matriz de Vandermonde.md",
     "versión numérica.md",
+    "Resolución numérica de sistemas de ecuaciones no-lineales.md",
+    "Raíces en 1D/Método de Newton.md",
     "Untitled.canvas",
     "CONFIG",
-    "CONFIG/Z - Agradecimientos y registro de cambios.md",
-    "Mínimos Cuadrados/Mínimos cuadrados por minimización.md",
-    "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
-    "ctorres@inf.utfsm.cl.md",
-    "Resolución numérica de sistemas de ecuaciones lineales.md",
-    "Ecuaciones diferenciales ordinarias.md",
-    "Diferencias Finitas.md",
-    "Algoritmos de integración numérica.md",
-    "Sistemas de Ecuaciones Lineales/Jacobi.md",
-    "Sistemas de Ecuaciones Lineales/GMRes.md",
-    "Sistemas de Ecuaciones Lineales/Gauss-Seidel.md",
-    "Sistemas de Ecuaciones Lineales/Forward Substitution.md",
-    "Sistemas de Ecuaciones Lineales/Factorización PALU.md",
-    "Sistemas de Ecuaciones Lineales/Factorización LU.md",
-    "Sistemas de Ecuaciones Lineales/Eliminación Gaussiana.md",
-    "Sistemas de Ecuaciones Lineales/Backward Substitution.md",
-    "Representación de punto flotante/Representación de máquina.md",
-    "Representación de punto flotante/Regla de redondeo.md",
-    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
-    "Representación de punto flotante/Machine Epsilon.md",
-    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
     "Mínimos Cuadrados",
     "Interpolación Polinomial",
     "Sistemas de Ecuaciones Lineales",

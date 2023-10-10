@@ -72,3 +72,4 @@ En general se puede aplicar a matrices triangulares inferiores donde la diagonal
         \end{bmatrix}.$$ El único cuidado que se requiere que los coeficientes de la diagonal sean distinto de $0$ y que al despejar las ecuaciones se divida por el coeficiente en la diagonal, dado que no es necesariamente 1.
 
 #OK
+#Tema_4

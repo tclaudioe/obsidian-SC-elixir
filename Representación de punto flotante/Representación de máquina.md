@@ -32,3 +32,4 @@ to_fps_double(x+np.power(2.,-52))
 - [[Bits del exponente solo de 0s]]: $e_1\,e_2\,\dots\,e_{11}=00000000000$. #repSubNormal 
 
 #OK
+#Tema_1

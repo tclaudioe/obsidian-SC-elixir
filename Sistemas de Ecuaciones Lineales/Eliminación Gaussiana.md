@@ -51,3 +51,4 @@ Los algoritmos LU y PALU son obtenidos de la clásica **Eliminación Gaussiana**
 2. Si se encontrara un $0$ en la diagonal (o incluso un número muy pequeño), el algoritmo no puede continuar. Esto se resuelve con la [[Factorización PALU]].
 
 #OK
+#Tema_4

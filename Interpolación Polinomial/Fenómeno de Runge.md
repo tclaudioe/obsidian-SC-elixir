@@ -21,3 +21,4 @@ plt.show()
 Es decir, aparecen oscilaciones en los extremos del intervalo de interpolación. Las cuales afectan negativamente la interpolación polinomial.
 
 #OK 
+#Tema_6

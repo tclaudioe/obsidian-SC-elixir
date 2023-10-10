@@ -23,3 +23,4 @@ $$Es decir, es análogo al [[Método de Newton]] en 1D pero _traducido_ a alta d
 1. Requiere la resolución de un nuevo sistema de ecuaciones lineales en cada iteración.
 
 #OK
+#Tema_5

@@ -82,3 +82,4 @@ La idea es la misma, pero ahora tendremos $n$ pares ordenados, digamos: $(x_1,y_
 - Evaluar el polinomio interpolador $p_{n-1}(x) = \sum_{i=0}^{n-1} a_{i}\,x^i$ sin ninguna optimización tiene un costo computacional de $\sim \dfrac{n^2}{2}$.
 
 #OK 
+#Tema_6

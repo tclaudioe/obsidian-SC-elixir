@@ -129,3 +129,4 @@ En la [[Factorización LU]] se utilizan los coeficiente que van quedando en la d
 2. Si bien almacenar las permutaciones requiere memoria adicional, es solo orden $n$, y las matrices $L$ y $U$ es orden $n^2$, por lo que es mínimo.
 
 #OK
+#Tema_4

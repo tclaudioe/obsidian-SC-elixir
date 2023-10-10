@@ -18,3 +18,4 @@
             \lim_{i \to \infty} \frac{e_{i+1}}{e_{i}^2} = M < \infty.
         \end{equation*}$$
     #OK
+    #Tema_3

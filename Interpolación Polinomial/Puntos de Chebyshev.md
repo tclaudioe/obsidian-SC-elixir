@@ -4,7 +4,7 @@ Recordando la fórmula del [[Error de Interpolación Polinomial]]:$$\begin{equat
 $$
 \min_{\displaystyle{x_i\in[-1,1]}} \max_{\displaystyle{-1 \leq x \leq 1}} \left|(x-x_1)\dots(x-x_n)\right|.$$ Lo cual se resume en el siguiente #Teorema :
 
-#Teorem #TeoremaDeChebyshev
+#Teorema  #TeoremaDeChebyshev
     	La elección de los números reales $-1 \leq x_1,x_2,\dots,x_n \leq 1$ que hace el valor de   	$$\begin{align*}
     		\max_{-1 \leq x \leq 1} \left|(x-x_1)\dots(x-x_n)\right|
     	\end{align*}$$lo más pequeño posible es   	$$\begin{equation*}
@@ -124,3 +124,4 @@ plt.show()
 ```
 
 #OK 
+#Tema_6

@@ -59,3 +59,4 @@ $$
 1. No necesariamente termina luego de una cantidad finita de pasos, como sí lo hace [[Factorización LU]] o [[Factorización PALU]].
 
 #OK
+#Tema_4

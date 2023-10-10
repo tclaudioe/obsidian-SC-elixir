@@ -41,3 +41,4 @@ Una posible interpretación de lo que _nos dice_ la fórmula de error de interpo
 3. **Y de $(x-x_{1})(x-x_{2})...(x-x_{n})$**, de lo cual no controlamos $x$ pero sí podríamos elegir los puntos de interpolación $x_i$. Por ejemplo, si se utilizan puntos **equiespaciados** entonces aparece el [[Fenómeno de Runge]], pero si elegimos otros puntos, tales como los [[Puntos de Chebyshev]], esto puede mejorar mucho!
 
 #OK 
+#Tema_6

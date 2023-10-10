@@ -33,6 +33,7 @@ plt.plot(xi,yi,'.', markersize=10, label='data')
 plt.plot(xi,1.9*xi-4.5,'r-', label='Aproximación 1')
 plt.plot(xi,2.3*xi-4.,'g-', label='Aproximación 2')
 plt.plot(xi,1.95*xi-4.9,'-', color='orange', label='Aproximación 3')
+plt.plot(xi,2*xi-5,'-', color='purple', label='Aproximación 4')
 plt.xlabel('$x$')
 plt.ylabel('$y$')
 plt.grid(True)
@@ -40,7 +41,7 @@ plt.legend()
 plt.show()
 ```
 
-## ¿Cómo definimos la _mejor_ aproximación?
+# ¿Cómo definimos la _mejor_ aproximación?
 Considere que tenemos ahora el siguiente conjunto de datos $(x_{1},y_{1}),\dots,(x_m,y_m)$, de los cuales **sabemos** que se relacionan linealmente, es decir, $y \approx a+b\,x$. Con esta información podemos definir las siguientes ecuaciones,$$\begin{align*}
 	a+b\,x_1 &=\widehat{y\hspace{1pt}}_1 \approx y_1,\\
 	a+b\,x_2 &=\widehat{y\hspace{1pt}}_2 \approx y_2,\\
@@ -95,11 +96,11 @@ Para continuar, se necesitan algunas precisiones:
 4. La identidad $a+b\,x_i = \widehat{y\hspace{1pt}}_i$ indica que se obtiene $\widehat{y\hspace{1pt}}_i$ al evaluar la aproximación lineal en $x_i$.
 5. La triple identidad $y_i = y_i^{(e)}+\varepsilon_i = \widehat{y\hspace{1pt}}_i +r_i$ muestra la relación entre la **data obtenida** $y_i$, **el dato exacto** $y_i^{(e)}$, y el **dato obtenido por la aproximación utilizada** $\widehat{y\hspace{1pt}}_i$.
 6. $r_i=y_i-\widehat{y\hspace{1pt}}_i$, corresponde al **residuo** obtenido al aproximar la **data** $y_i$ con el modelo elegido (que puede o no ser lineal).
-## En resumen, necesitamos:
+# En resumen, necesitamos:
 1. **Datos**: $(x_i,y_i)$.
 2. **Modelo**: $f(x)=a+b\,x$.
 3. **Definición de error a reducir**: Error cuadrático.
-## Definición del error cuadrático, varias representaciones equivalentes
+# Definición del error cuadrático, varias representaciones equivalentes
 $$
 \begin{align*}
 	E(a,b) &= \sum_{i=1}^m (y_i-f(x_i))^2\\
@@ -108,9 +109,17 @@ $$
 			&= \sum_{i=1}^m r_i^2\\
 \end{align*}
 $$
-## ¿Cómo obtenemos el _mejor_ modelo entonces?
+# ¿Cómo obtenemos el _mejor_ modelo entonces?
 Minimizando $E(a,b)$, para lo cual tenemos 2 familias de algoritmos:
 - [[Mínimos cuadrados por minimización]]
 - [[Mínimos Cuadrados desde el Álgebra Lineal]] 
 
+# Ejemplos de modelos
+- Lineal: $y = c_1 + c_2 \, t$
+- Cuadrático: $y=c_1 + c_2 \, t + c_3 \, t^2$
+- Sinusoidal: $y=c_1 + c_2 \cos(2\pi \, t) + c_3 \, \sin(2\pi \, t) + c_4 \, \cos(4\pi \, t)$
+- Exponencial: $y=c_1 \, \exp(c_2 \, t)$ + cambio de variables nos da $\log(y)=\log(c_1)+c_2\,t$
+- Ley de potencia: $y=c_1 \, t^{c_2}$ + cambio de variables nos da $\log(y)=\log(c_1)+c_2\,\log(t)$
+
 #OK
+#Tema_7

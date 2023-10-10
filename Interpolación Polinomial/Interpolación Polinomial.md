@@ -72,3 +72,4 @@ Una de las principales aplicaciones de interpolación polinomial es para aproxim
 - [[Puntos de Chebyshev]]
 
 #OK 
+#Tema_6

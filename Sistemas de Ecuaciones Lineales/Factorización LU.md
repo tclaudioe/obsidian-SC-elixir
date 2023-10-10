@@ -117,3 +117,4 @@ Por otro lado, los coeficientes de $L$ son los coeficientes $\verb|mult = B[i,j]
 1. Se requiere esperar la ejecución completa de las $\sim \dfrac{2}{3}n^3$ operaciones elementales para obtener la solución $\mathbf{x}$.
 
 #OK
+#Tema_4

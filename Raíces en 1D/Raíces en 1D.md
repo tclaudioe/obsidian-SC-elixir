@@ -42,3 +42,4 @@ La idea en este tema es que dada una función  $f(x)$ se quiere encontrar el nú
 
 
 #OK
+#Tema_3

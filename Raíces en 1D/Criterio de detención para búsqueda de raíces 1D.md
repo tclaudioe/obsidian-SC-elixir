@@ -15,3 +15,4 @@ Los criterios de detención de algoritmos de búsqueda de $0$ se basan en las si
 4. Una última alternativa es definir una cantidad máxima de iteraciones, esto ayuda a no dejar un loop infinito en ejecución, por lo que se sugiere utilizar un número no tan pequeño. Si el número máximo de iteraciones es muy pequeño, podría implicar una detención prematura del algoritmo y la aproximación de la raíz podría contener un error significativo.
 
 #OK
+#Tema_3

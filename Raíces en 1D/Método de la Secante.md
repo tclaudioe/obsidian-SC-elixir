@@ -47,3 +47,4 @@ for i in np.arange(10):
 **Nota**: En este caso se requirió incluir un segundo _initial guess_ y además tomó más iteraciones que en el [[Método de Newton]], sin embargo no se necesitó la derivada de la función $f(x)$.
 
 #OK
+#Tema_3

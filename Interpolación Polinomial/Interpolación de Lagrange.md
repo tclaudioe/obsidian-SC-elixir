@@ -39,3 +39,4 @@ La idea es la misma, pero ahora tendremos $n$ pares ordenados, digamos: $(x_1,y_
 - La evaluación tiene un costo computacional  $\sim 2\,n^2$ operaciones elementales.
 
 #OK 
+#Tema_6

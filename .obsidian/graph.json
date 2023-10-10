@@ -4,16 +4,9 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
-    {
-      "query": "#OK",
-      "color": {
-        "a": 1,
-        "rgb": 3549435
-      }
-    },
     {
       "query": "#rootNode",
       "color": {
@@ -22,37 +15,65 @@
       }
     },
     {
-      "query": "#WorkingHere",
+      "query": "#Tema_1",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 11392604
       }
     },
     {
-      "query": "#pluginsRequired",
+      "query": "#Tema_2",
       "color": {
         "a": 1,
-        "rgb": 6084269
+        "rgb": 14048413
       }
     },
     {
-      "query": "",
+      "query": "#Tema_3",
+      "color": {
+        "a": 1,
+        "rgb": 1522414
+      }
+    },
+    {
+      "query": "#Tema_4",
       "color": {
         "a": 1,
         "rgb": 6073814
       }
+    },
+    {
+      "query": "#Tema_5",
+      "color": {
+        "a": 1,
+        "rgb": 15758351
+      }
+    },
+    {
+      "query": "#Tema_6",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "#Tema_7",
+      "color": {
+        "a": 1,
+        "rgb": 8454141
+      }
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": -1.8,
-  "nodeSizeMultiplier": 1.691064453125,
-  "lineSizeMultiplier": 2.9962158203125,
+  "showArrow": true,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 2.34844706668151,
+  "lineSizeMultiplier": 1.80624512968941,
   "collapse-forces": false,
-  "centerStrength": 0.437525382428591,
-  "repelStrength": 5.93068904832814,
-  "linkStrength": 1,
-  "linkDistance": 196,
-  "scale": 1.474923698138886,
-  "close": false
+  "centerStrength": 0.389699061189655,
+  "repelStrength": 9.42817915321533,
+  "linkStrength": 0.419384763813129,
+  "linkDistance": 315,
+  "scale": 0.8094208240327818,
+  "close": true
 }

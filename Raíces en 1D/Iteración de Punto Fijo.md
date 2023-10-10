@@ -85,3 +85,4 @@ Entonces de esta forma hemos construido un punto fijo $r=g(r)$ tal que el valor 
 - [[Convergencia de una Iteración de Punto Fijo]]
 
 #OK
+#Tema_3

@@ -66,3 +66,4 @@ Entonces,$$
 $$ Notar que en la primera sumatoria se inicia en $n$ y termina en $1$ para indicar que el primer ciclo es decreciente.
 
 #OK
+#Tema_4

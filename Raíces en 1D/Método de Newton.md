@@ -28,3 +28,4 @@ En el caso de que el método de Newton exhiba #ConvergenciaLineal , esto signifi
 **Nota**: Una forma numérica de determinar la multiplicidad de la raíz es ejecutar el método de Newton original y determinar la tasa $S$ respectiva, entonces a partir de $S$ y del teorema #ConvergenciaLinealDelMétodoDeNewton se puede estimar $m$.
 
 #OK
+#Tema_3
