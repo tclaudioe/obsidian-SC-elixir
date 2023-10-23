@@ -2,7 +2,7 @@
 	    Asuma que $p(x)$ es el polinomio interpolador (de grado $n-1$ o menor) que ajusta $n$ puntos $(x_{1}, y_{1}), \dots, (x_{n}, y_{n})$.  El error de interpolación es,
         $$\begin{equation*}
             f(x) - p(x) = \frac{(x-x_{1})(x-x_{2})...(x-x_{n})}{n!} \, f^{(n)}(c),
-        \end{equation*}$$donde $c$ está entre el menor y el mayor de los números $x, x_{1}, ... , x_{n}$.
+	\end{equation*}$$donde $c$ está entre el menor y el mayor de los números $x, x_{1}, ... , x_{n}$.
 
 Para entender mejor lo que significa el error que se genera al interpolar una función $f(x)$ por medio de un polinomio con $n$ puntos se presenta el siguiente ejemplo donde se interpola la función $f(x)=\dfrac{1}{1+12\,x^2}$, para este caso particular se utiliza $n=5$.
 

@@ -7,5 +7,6 @@
 - 2023/09/25 - v0.108 - Prof. C. Torres - Se incluye [[Interpolación Polinomial]], [[Interpolación con la matriz de Vandermonde]], [[Interpolación de Lagrange]], y [[Interpolación Baricéntrica]].
 - 2023/09/30 - Prof. C.Torres - Se elimina uso de versiones, se incluye una línea en código requerido [[Z - Plugins necesarios]], y se agrega [[Problemas de mínimos cuadrados]], [[Mínimos cuadrados por minimización]].
 - 2023/10/09 - Prof. C.Torres - Se agrega [[Mínimos Cuadrados desde el Álgebra Lineal]], [[Factorización QR]], [[Ortonormalización de Gram-Schmidt]], y [[Problemas de mínimos cuadrados]].
+- 2023/10/23 - Prof. C.Torres - Se agrega [[GMRes]].
 
 #logFile

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pérdida de importancia y errores de cancelación.md",
+                "file": "Interpolación Polinomial/Interpolación de Lagrange.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,6 +71,16 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "7523fdcd63f1378d",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
       }
     ],
     "currentTab": 0
@@ -85,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Pérdida de importancia y errores de cancelación.md",
+            "file": "Interpolación Polinomial/Interpolación de Lagrange.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Pérdida de importancia y errores de cancelación.md",
+            "file": "Interpolación Polinomial/Interpolación de Lagrange.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +124,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Pérdida de importancia y errores de cancelación.md"
+            "file": "Interpolación Polinomial/Interpolación de Lagrange.md"
           }
         }
       }
@@ -131,8 +141,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fea62f42e2882917",
+  "active": "552a2262e5c07b86",
   "lastOpenFiles": [
+    "Interpolación Polinomial/Interpolación Baricéntrica.md",
+    "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md",
+    "Raíces en 1D/Método de Newton.md",
+    "Sistemas de Ecuaciones Lineales/Backward Substitution.md",
+    "Mínimos Cuadrados/Factorización QR.md",
+    "CONFIG/Z - Plugins necesarios.md",
+    "Pérdida de importancia y errores de cancelación.md",
     "Sistemas de Ecuaciones Lineales/Eliminación Gaussiana.md",
     "Resolución numérica de sistemas de ecuaciones lineales.md",
     "Representación de punto flotante/Representación de máquina.md",
@@ -148,16 +165,9 @@
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
     "Raíces en 1D/Método de la Bisección.md",
     "Raíces en 1D/Raíces en 1D.md",
-    "Raíces en 1D/Método de Newton.md",
-    "Pérdida de importancia y errores de cancelación.md",
     "Raíces en 1D/Método de la Secante.md",
     "ROOT - Computación Científica.md",
     "Raíces en 1D/Iteración de Punto Fijo.md",
-    "Plugins necesarios.md",
-    "Representación de punto flotante/Bits del exponente solo de 1s.md",
-    "Algoritmos de integración numérica.md",
-    "Ecuaciones diferenciales ordinarias.md",
-    "Problemas de mínimos cuadrados.md",
-    "Resolución numérica de sistemas de ecuaciones no-lineales.md"
+    "Plugins necesarios.md"
   ]
 }

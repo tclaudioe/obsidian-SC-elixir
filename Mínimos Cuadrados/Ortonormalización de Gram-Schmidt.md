@@ -20,7 +20,7 @@ Para iniciar la explicación, retomemos la siguiente representación,$$
 	0      & \dots  & \dots  &  0     &  r_{nn}
 \end{bmatrix}.$$
 Al hacer el producto del lado derecho obtenemos las siguientes ecuaciones,
- $\mathbf{a}_{1}=r_{11}\,\mathbf{q}_{1}$
+- $\mathbf{a}_{1}=r_{11}\,\mathbf{q}_{1}$
 - $\mathbf{a}_{2}=r_{12}\,\mathbf{q}_{1}+r_{22}\,\mathbf{q}_{2}$
 - $\mathbf{a}_{3}=r_{13}\,\mathbf{q}_{1}+r_{23}\,\mathbf{q}_{2}+r_{33}\,\mathbf{q}_{3}$
 - ...
@@ -37,9 +37,9 @@ $$\textcolor{blue}{\mathbf{a}_{1}}=\textcolor{red}{r_{11}\,\mathbf{q}_{1}}$$ Lo 
 $$\textcolor{blue}{\mathbf{a}_{2}}=\textcolor{red}{r_{12}}\,\textcolor{blue}{\mathbf{q}_{1}}+\textcolor{red}{r_{22}\,\mathbf{q}_{2}}$$
 1. Multiplicar por la izquierda por $\mathbf{q}_1^T$, _que es equivalente a decir que se hace el producto interno con $\mathbf{q}_1^T$_. Esto no entrega $r_{12}$ por la siguiente razón,$$\begin{align*}
 	    \mathbf{a}_{2} &= r_{12}\,\mathbf{q}_{1}+r_{22}\,\mathbf{q}_{2},\\
-	    \mathbf{q}_{2}^T\,\mathbf{a}_{2} &= r_{12}\,\underbrace{\mathbf{q}_{2}^T\mathbf{q}_{1}}_{0}+
-	    r_{22}\,\underbrace{\mathbf{q}_{2}^T\mathbf{q}_{2}}_{1},\\
-	    \mathbf{q}_{2}^T\,\mathbf{a}_{2} &= r_{22}.
+	    \mathbf{q}_{1}^T\,\mathbf{a}_{2} &= r_{12}\,\underbrace{\mathbf{q}_{1}^T\mathbf{q}_{1}}_{1}+
+	    r_{22}\,\underbrace{\mathbf{q}_{1}^T\mathbf{q}_{2}}_{0},\\
+	    \mathbf{q}_{1}^T\,\mathbf{a}_{2} &= r_{12}.
 	\end{align*}$$
 2. Ahora movemos lo conocido al lado izquierdo y obtenemos,$$\mathbf{a}_{2} - r_{12}\,\mathbf{q}_{1}=r_{22}\,\mathbf{q}_{2}.$$Esto no deja una ecuación con la misma _estructura_ que la "Primera ecuación" analizada anteriormente, por lo tanto al aplicar la norma obtenemos,$$\|\mathbf{a}_{2} - r_{12}\,\mathbf{q}_{1}\|=r_{22}.$$
 3. Finalmente _despejamos_ $\mathbf{q}_2$ y obtenemos,$$\mathbf{q}_{2} = \dfrac{\mathbf{a}_{2}-r_{12}\,\mathbf{q}_{1}}{r_{22}}.$$
@@ -108,7 +108,7 @@ for k in range(n):
                 R[i,k] = np.dot(Q[:,i],y)
             y=y-R[i,k]*Q[:,i]
         R[k,k] = np.linalg.norm(y)
-        Q[:,k] = y/np.linalg.norm(R[k,k])
+        Q[:,k] = y/R[k,k]
 ```
 
 #OK
