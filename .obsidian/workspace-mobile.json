@@ -11,12 +11,8 @@
             "id": "552a2262e5c07b86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interpolación Polinomial/Interpolación de Lagrange.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -95,7 +91,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Interpolación Polinomial/Interpolación de Lagrange.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,7 +107,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Interpolación Polinomial/Interpolación de Lagrange.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,9 +117,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Interpolación Polinomial/Interpolación de Lagrange.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -143,6 +135,10 @@
   },
   "active": "552a2262e5c07b86",
   "lastOpenFiles": [
+    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+    "ROOT - Computación Científica.md",
+    "Interpolación Polinomial/Interpolación de Lagrange.md",
     "Interpolación Polinomial/Interpolación Baricéntrica.md",
     "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md",
     "Raíces en 1D/Método de Newton.md",
@@ -164,10 +160,6 @@
     "Representación de punto flotante/Machine Epsilon.md",
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
     "Raíces en 1D/Método de la Bisección.md",
-    "Raíces en 1D/Raíces en 1D.md",
-    "Raíces en 1D/Método de la Secante.md",
-    "ROOT - Computación Científica.md",
-    "Raíces en 1D/Iteración de Punto Fijo.md",
-    "Plugins necesarios.md"
+    "Raíces en 1D/Raíces en 1D.md"
   ]
 }

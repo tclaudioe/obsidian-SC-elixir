@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROOT - Computación Científica.md",
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROOT - Computación Científica.md",
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROOT - Computación Científica.md",
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROOT - Computación Científica.md"
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md"
               }
             }
           },
@@ -158,9 +158,9 @@
   },
   "active": "d287361a33037a33",
   "lastOpenFiles": [
+    "ROOT - Computación Científica.md",
     "versión numérica.md",
     "Diferencias Finitas.md",
-    "ROOT - Computación Científica.md",
     "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
     "Ecuaciones diferenciales ordinarias.md",
     "Algoritmos de integración numérica.md",

@@ -193,10 +193,19 @@ Entonces, la minimización se puede simplificar de la siguiente forma,$$
 \end{align*}$$Entonces, el problema de minimización de dimensión queda de la siguiente forma,$$
 \begin{align*}
 	\overline{\mathbf{c}}_k
-	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\|b\|\,\mathbf{e}_1-\widetilde{H}_k\,\mathbf{c}_k\right\|_2^2\\
+	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\|\mathbf{b}\|\,\mathbf{e}_1-\widetilde{H}_k\,\mathbf{c}_k\right\|_2^2\\
 	\overline{\mathbf{x}}_k &= Q_k\,\overline{\mathbf{c}}_k.
 \end{align*}$$El cual reduce el problema de mínimos cuadrados de uno de dimensión $n\times k$ a uno de dimensión $(k+1)\times k$. **¡Lo cual es una mejora significativa!**. Explícitamente se debe resolver el siguiente problema de minimización,$$\begin{equation}
-        \begin{bmatrix}
+	\overline{\mathbf{c}}_k
+	= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\begin{bmatrix} 
+        	\|\mathbf{b}\|\\
+        	0\\
+        	0\\
+        	\vdots\\
+        	\vdots\\
+        	0\\
+        	0
+    	\end{bmatrix}-\begin{bmatrix}
     	    h_{11} & h_{12} & \dots  & h_{1,k-1}  & h_{1,k} \\
     	    h_{21} & h_{22} & \dots  & h_{2,k-1}  &  h_{2,k} \\
     	    0      & h_{32} & \ddots & h_{3,k-1}  &  h_{3,k} \\
@@ -211,16 +220,7 @@ Entonces, la minimización se puede simplificar de la siguiente forma,$$
         	\vdots\\
         	c_{k-1}\\
         	c_k
-    	\end{bmatrix}
-    	\approx
-    	\begin{bmatrix} 
-        	\|\mathbf{b}\|\\
-        	0\\
-        	0\\
-        	\vdots\\
-        	0\\
-        	0
-    	\end{bmatrix}.
+    	\end{bmatrix}\right\|_2^2.
     \end{equation}$$
 # El algoritmo
 ```python
