@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5026054382324
+    "width": 361.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "adfbb7f5bdd2dc4c",
@@ -158,6 +159,7 @@
   },
   "active": "d287361a33037a33",
   "lastOpenFiles": [
+    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
     "ROOT - Computación Científica.md",
     "versión numérica.md",
     "Diferencias Finitas.md",
@@ -165,7 +167,6 @@
     "Ecuaciones diferenciales ordinarias.md",
     "Algoritmos de integración numérica.md",
     "CONFIG/Z - Agradecimientos y registro de cambios.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
     "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
     "Interpolación Polinomial/Puntos de Chebyshev.md",

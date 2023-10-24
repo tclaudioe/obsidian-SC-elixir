@@ -11,8 +11,12 @@
             "id": "552a2262e5c07b86",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -91,6 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,6 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +123,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md"
+          }
         }
       }
     ],

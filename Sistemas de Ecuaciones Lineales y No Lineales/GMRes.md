@@ -6,7 +6,8 @@ Lo que implica lo siguiente:
 1. $p(\lambda)=\text{det}(\lambda\,I-A)=\lambda^n+\check{c}_{n-1}\,\lambda^{n-1}+\dots+\check{c}_1\,\lambda+(-1)^n\,\text{det}(A)$.
 2. $p(\lambda_i)=0$, para cualquier valor propio $\lambda_i$ de $A$.
 3. $p(A)=A^n+\check{c}_{n-1}\,A^{n-1}+\dots+\check{c}_1\,A+(-1)^n\,\text{det}(A)\,I=\underline{\underline{0}}$.
-4. $A^{-1}=\dfrac{(-1)^{n-1}}{\text{det}(A)}\left(A^{n-1}+\check{c}_{n-1}\,A^{n-2}+\dots+\check{c}_2\,A+\check{c}_1\,I\right)$.
+4. Multiplicando por $A^{-1}$ se obtiene: $A^{n-1}+\check{c}_{n-1}\,A^{n-2}+\dots+\check{c}_1\,I+(-1)^n\,\text{det}(A)\,A^{-1}=\underline{\underline{0}}$.
+5. $A^{-1}=\dfrac{(-1)^{n-1}}{\text{det}(A)}\left(A^{n-1}+\check{c}_{n-1}\,A^{n-2}+\dots+\check{c}_2\,A+\check{c}_1\,I\right)$.
 Entonces, si queremos resolver un sistema de ecuaciones lineales de la forma $A\,\mathbf{x}=\mathbf{b}$, podríamos escribir la solución como **una combinación lineal de potencias de la matriz $A$**.$$\begin{align*}
 	A\,\mathbf{x}&=\mathbf{b},\\
 	\,\mathbf{x}&=A^{-1}\,\mathbf{b},\\
@@ -17,7 +18,7 @@ Por lo tanto, una **aproximación** de la solución $\mathbf{x}$ se puede constr
 \begin{align*}
 \overline{\mathbf{x}}_k&=\underset{\displaystyle{\widehat{\mathbf{x}}_k\in\mathcal{K}_k}}{\text{argmin}}\left\|\mathbf{b}-A\,\widehat{\mathbf{x}}_k\right\|_2^2.
 \end{align*}
-$$ Desde un punto de vista gráfico, se puede interpretar de la siguiente forma:
+$$Desde un punto de vista gráfico, se puede interpretar de la siguiente forma, pero notando que en esta minimización con restricciones no se preserva necesariamente la ortogonalidad.
 
 ```tikz
 	\begin{document}
@@ -25,9 +26,6 @@ $$ Desde un punto de vista gráfico, se puede interpretar de la siguiente forma:
 		% Axis
 		\draw [->, line width=1pt] (0,-2) -- (0,7);
 		\draw [->, line width=1pt] (-2,0) -- (12,0);
-		% square
-		\draw [-,line width=1.5pt,black]  (6.9, 4) -- (6.5, 3.8);
-		\draw [-,line width=1.5pt,black]  (6.75, 3.3) -- (6.5, 3.85);
 		% A\,x
 		\draw [-,line width=1.5pt,red]  (-1, -0.5) -- (10, 4.95);
 		\draw [red] (3.2,1.3) node [below]{$A\,\widehat{\mathbf{x}}_k$};
@@ -160,8 +158,8 @@ K_k=\begin{bmatrix}
 		\draw [-,line width=1.5pt,red]  (-1, -0.5) -- (10, 4.95);
 		\draw [red] (3.2,1.3) node [below]{$A\,K_k\,\tilde{\mathbf{c}}_k$};
 		% r
-		\draw [->,line width=1.5pt,cyan,dashed]  (7.1,3.5) -- (6.1,5.8);
-		\draw [cyan] (7.1, 5) node[above right]{$\mathbf{r}_k = \mathbf{b}-A\,K_k\,\overline{\tilde{\mathbf{c}}}_k$};
+		\draw [->,line width=1.5pt,orange,dashed]  (7.1,3.5) -- (6.1,5.8);
+		\draw [orange] (7.1, 5) node[above right]{$\mathbf{r}_k = \mathbf{b}-A\,K_k\,\overline{\tilde{\mathbf{c}}}_k$};
 		% b
 		\draw [fill=blue,blue] (6,6) circle  (2pt) node[above]{$\mathbf{b}$};
 		\draw [->,line width=1.5pt,blue]  (0,0) -- (5.8,5.8);
