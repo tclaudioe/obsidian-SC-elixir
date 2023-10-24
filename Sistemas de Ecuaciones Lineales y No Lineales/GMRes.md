@@ -173,21 +173,21 @@ K_k=\begin{bmatrix}
 donde la _matriz_ del problema a minimizar es $A\,K_k$, a la cual, en principio, podría obtener su factorización QR, sin embargo, existe una mejor opción.
 Por otro lado, la observación que es necesaria hacer acá es dado que el $\text{Range}(K_k)=\text{Range}(Q_k)$, entonces se satisface la siguiente identidad,$$
 \begin{equation*}
-	K_k\,\tilde{\mathbf{c}}_k = Q_k\,\mathbf{c}_k.
+	\widehat{\mathbf{x}}_k=K_k\,\tilde{\mathbf{c}}_k = Q_k\,\mathbf{c}_k.
 \end{equation*}$$ Por lo tanto, nuestro problema de minimización se transforma de la siguiente forma,$$
 \begin{align*}
 	\overline{\mathbf{c}}_k &= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\mathbf{b}-A\,Q_k\,\mathbf{c}_k\right\|_2^2,\\
 	\overline{\mathbf{x}}_k &= Q_k\,\overline{\mathbf{c}}_k.
 \end{align*}$$Ahora, si bien es una mejora, aún no es la forma final. Aquí es cuando podemos utilizar dos cosas:
 1. La reducción parcial de Hessenberg: $A\,Q_k=Q_{k+1}\,\widetilde{H}_k$.
-2. La definición de $\mathbf{q}_1=\dfrac{\mathbf{b}}{\|\mathbf{b}\|}$, pero re-escrita como $\mathbf{b}=\|b\|Q_{k+1}\,\mathbf{e}_1$, donde $\mathbf{e}_1$ es el primer vector canónico de dimensión $k+1$.
+2. La definición de $\mathbf{q}_1=\dfrac{\mathbf{b}}{\|\mathbf{b}\|}$, pero re-escrita como $\mathbf{b}=\|\mathbf{b}\|Q_{k+1}\,\mathbf{e}_1$, donde $\mathbf{e}_1$ es el primer vector canónico de dimensión $k+1$.
 Entonces, la minimización se puede simplificar de la siguiente forma,$$
 \begin{align*}
 	\overline{\mathbf{c}}_k &= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\mathbf{b}-A\,Q_k\,\mathbf{c}_k\right\|_2^2\\
 	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\mathbf{b}-Q_{k+1}\,\widetilde{H}_k\,\mathbf{c}_k\right\|_2^2\\
-	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\|b\|Q_{k+1}\,\mathbf{e}_1-Q_{k+1}\,\widetilde{H}_k\,\mathbf{c}_k\right\|_2^2\\
-	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|Q_{k+1}\left(\|b\|\,\mathbf{e}_1-\widetilde{H}_k\,\mathbf{c}_k\right)\right\|_2^2\\
-	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\|b\|\,\mathbf{e}_1-\widetilde{H}_k\,\mathbf{c}_k\right\|_2^2\\
+	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\|\mathbf{b}\|Q_{k+1}\,\mathbf{e}_1-Q_{k+1}\,\widetilde{H}_k\,\mathbf{c}_k\right\|_2^2\\
+	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|Q_{k+1}\left(\|\mathbf{b}\|\,\mathbf{e}_1-\widetilde{H}_k\,\mathbf{c}_k\right)\right\|_2^2\\
+	&= \underset{\displaystyle{\mathbf{c}_k\in\mathbb{R}^k}}{\text{argmin}}\left\|\|\mathbf{b}\|\,\mathbf{e}_1-\widetilde{H}_k\,\mathbf{c}_k\right\|_2^2\\
 	\overline{\mathbf{x}}_k &= Q_k\,\overline{\mathbf{c}}_k.
 \end{align*}$$Entonces, el problema de minimización de dimensión queda de la siguiente forma,$$
 \begin{align*}
@@ -220,18 +220,18 @@ Entonces, la minimización se puede simplificar de la siguiente forma,$$
         	c_{k-1}\\
         	c_k
     	\end{bmatrix}\right\|_2^2.
-    \end{equation}$$
+    \end{equation}$$Notar que $\left\|\mathbf{b}-A\,Q_k\,\mathbf{c}_k\right\|_2^2=\left\|\|\mathbf{b}\|\,\mathbf{e}_1-\widetilde{H}_k\,\mathbf{c}_k\right\|_2^2$, por lo que si la norma del problema pequeño es $0$ entonces también lo es la otra! Esto significa que se encontró la solución exacta! Esto ocurre cuando el coeficiente $h_{k+1,k}=0$ y se le denomina _breakdown_.
 # El algoritmo
 ```python
 # Assuming we execute "m" iterations, where m<n
 x0 = # "Initial Guess"
-r0 = b - np.dot(A, x0) # Initial residual
+r0 = b - np.dot(A, x0) # Initial residual # y = afun(x0)
 nr0=np.linalg.norm(r0) # Storing the initial residual norm
 Q = np.zeros((n,m+1))
 H = np.zeros((n,m))
 Q[:,0] = r0 / nr0
 for k in np.arange(m):
-	y = np.dot(A, Q[:,k])
+	y = np.dot(A, Q[:,k]) # y = afun(Q[:,k])
 	for j in np.arange(k+1):
 		H[j,k] = np.dot(Q[:,j], y)
 		y = y - np.dot(H[j,k],Q[:,j])
@@ -258,7 +258,7 @@ for k in np.arange(m):
 - Considerando aritmética exacta, encuentra la solución _exacta_ en a lo más $n$ iteraciones.
 ## Desventajas
 - Los requerimientos de memoria crecen cuadráticamente con la cantidad de iteraciones.
-- Requiere resolver un problema de mínimos cuadrados por iteraxción.
+- Requiere resolver un problema de mínimos cuadrados por iteración.
 	- **Aunque se pueden utilizar rotaciones de _Givens_ para reducir la cantidad de operaciones elementales y además, al resolver con la factorización QR, se pueden reutilizar las factorizaciones previas.**
 - Es más desafiante de entender **pero ayuda a resolver problemas que de otra forma requerirían mucha memoria**.
 
