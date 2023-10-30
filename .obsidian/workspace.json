@@ -11,8 +11,12 @@
             "id": "4465c106eb37af0f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ROOT - Computación Científica.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ROOT - Computación Científica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ROOT - Computación Científica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ROOT - Computación Científica.md"
+              }
             }
           },
           {
@@ -150,9 +158,10 @@
   },
   "active": "4465c106eb37af0f",
   "lastOpenFiles": [
+    "CONFIG/Z - Agradecimientos y registro de cambios.md",
+    "ROOT - Computación Científica.md",
     "Algoritmos de integración numérica.md",
     "Diferencias Finitas.md",
-    "ROOT - Computación Científica.md",
     "Interpolación Polinomial/Puntos de Chebyshev.md",
     "Interpolación Polinomial/Interpolación Polinomial.md",
     "Interpolación Polinomial/Interpolación de Lagrange.md",
@@ -164,7 +173,6 @@
     "versión numérica.md",
     "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
     "Ecuaciones diferenciales ordinarias.md",
-    "CONFIG/Z - Agradecimientos y registro de cambios.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
     "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",

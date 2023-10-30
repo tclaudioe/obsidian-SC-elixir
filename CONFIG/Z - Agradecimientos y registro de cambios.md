@@ -8,5 +8,5 @@
 - 2023/09/30 - Prof. C.Torres - Se elimina uso de versiones, se incluye una línea en código requerido [[Z - Plugins necesarios]], y se agrega [[Problemas de mínimos cuadrados]], [[Mínimos cuadrados por minimización]].
 - 2023/10/09 - Prof. C.Torres - Se agrega [[Mínimos Cuadrados desde el Álgebra Lineal]], [[Factorización QR]], [[Ortonormalización de Gram-Schmidt]], y [[Problemas de mínimos cuadrados]].
 - 2023/10/23 - Prof. C.Torres - Se agrega [[GMRes]].
-
+- 2023/10/29 - Prof. C.Torre - Se agrega [[Algoritmos de integración numérica]]. **Ver en GitHub de ahora en adelante el registro de cambios porfa.**
 #logFile
