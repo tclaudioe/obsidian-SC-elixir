@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROOT - Computación Científica.md",
+                "file": "Problemas de Valor Inicial.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 361.5026054382324
+    "width": 224.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "adfbb7f5bdd2dc4c",
@@ -85,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROOT - Computación Científica.md",
+                "file": "Problemas de Valor Inicial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROOT - Computación Científica.md",
+                "file": "Problemas de Valor Inicial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROOT - Computación Científica.md"
+                "file": "Problemas de Valor Inicial.md"
               }
             }
           },
@@ -158,10 +160,16 @@
   },
   "active": "4465c106eb37af0f",
   "lastOpenFiles": [
-    "CONFIG/Z - Agradecimientos y registro de cambios.md",
-    "ROOT - Computación Científica.md",
+    "Ecuaciones diferenciales ordinarias.md",
+    "Problemas de valor de Frontera.md",
+    "Problemas de Valor Inicial.md",
     "Algoritmos de integración numérica.md",
+    "versión numérica.md",
     "Diferencias Finitas.md",
+    "ROOT - Computación Científica.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+    "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
+    "CONFIG/Z - Agradecimientos y registro de cambios.md",
     "Interpolación Polinomial/Puntos de Chebyshev.md",
     "Interpolación Polinomial/Interpolación Polinomial.md",
     "Interpolación Polinomial/Interpolación de Lagrange.md",
@@ -169,21 +177,15 @@
     "Interpolación Polinomial/Interpolación Baricéntrica.md",
     "Interpolación Polinomial/Fenómeno de Runge.md",
     "Interpolación Polinomial/Error de Interpolación Polinomial.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
-    "versión numérica.md",
     "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
-    "Ecuaciones diferenciales ordinarias.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
     "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
     "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
     "Mínimos Cuadrados/Factorización QR.md",
-    "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
     "CONFIG/Z - Plugins necesarios.md",
     "Mínimos Cuadrados/Mínimos cuadrados por minimización.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones no-lineales.md",
-    "README.md",
-    "TEST.md",
     "Untitled.canvas",
     "CONFIG",
     "Mínimos Cuadrados",

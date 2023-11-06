@@ -24,12 +24,12 @@ Considere $\alpha\in\mathbb{R}$, $n>1$.
 
 # (algunos) Algoritmos de integración numérica
 **Idea** para _casi_ todos: Dividir y conquistar.
-## Suma de Reimann por la izquierda
+## Suma de Riemann por la izquierda
 Considere la siguiente partición $P=\{x_0,x_1,\dots,x_{m}\}$,$$
 \begin{align*}
 	c = \int_a^b f(x) dx = \sum_{k=0}^{m-1} f(x_k) (x_{k+1} - x_{k})+E_L,
 \end{align*}$$
-## Suma de Reimann por la derecha
+## Suma de Riemann por la derecha
 Considere la siguiente partición $P=\{x_0,x_1,\dots,x_{m}\}$,$$
 \begin{align*}
 	c = \int_a^b f(x) dx = \sum_{k=0}^{m-1} f(x_{k+1}) (x_{k+1} - x_{k})+E_R,
@@ -157,3 +157,6 @@ def gaussian_nodes_and_weights(m):
 
 # En resumen
 Integración numérica puede entenderse como una aplicación de un producto interno (punto) conveniente!
+
+#OK
+#Tema_8

@@ -62,6 +62,20 @@
         "a": 1,
         "rgb": 8454141
       }
+    },
+    {
+      "query": "#Tema_8",
+      "color": {
+        "a": 1,
+        "rgb": 11141022
+      }
+    },
+    {
+      "query": "#Tema_9",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
     }
   ],
   "collapse-display": false,
@@ -74,6 +88,6 @@
   "repelStrength": 14.2423502604167,
   "linkStrength": 1,
   "linkDistance": 301,
-  "scale": 0.8700237211644586,
+  "scale": 0.5129460701488783,
   "close": true
 }
