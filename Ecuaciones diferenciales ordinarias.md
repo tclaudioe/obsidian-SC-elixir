@@ -20,7 +20,7 @@ En las secciones anteriores, por ejemplo, se buscaba una escalar, un vector o un
 - En [[Algoritmos de integración numérica]] se busca el valor de la integral, es decir $c$, tal que $c\approx \displaystyle\sum_{i=1}^n f(x_i)\,w_i$.
 Ahora, en ODE (del _inglés_ Ordinary Differential Equations) lo que se tiene es una **ecuación diferencial** donde la incógnita es **una función** de **una variable**. En particular, se consideran dos posibles casos:
 - $y(t)$, es decir una función que dependen de una variable _temporal_. A estos problemas se les denomina [[Problemas de Valor Inicial]] o **Initial Value Problems**.
-- $y(x)$, es decir una función que depende de una variable _espacial_. A estos problemas se les denomina [[Problemas de valor de Frontera]] o **Boundary Value Problems**.
+- $y(x)$, es decir una función que depende de una variable _espacial_. A estos problemas se les denomina [[Problemas de Valor de Frontera]] o **Boundary Value Problems**.
 En general, cada uno de estos casos requiere un trato levemente distinto, por lo cual se explicará en cada uno de sus archivos el detalle.
 
 # ¿Qué sería más general que ODE?
@@ -120,7 +120,7 @@ Lo interesante, es que con los métodos que estudiemos **ODEs** se pueden resolv
 
 # Secciones a estudiar
 1.  [[Problemas de Valor Inicial]]
-2.  [[Problemas de valor de Frontera]] 
+2.  [[Problemas de Valor de Frontera]] 
 
 #OK 
-#TEMA_9
+#Tema_9

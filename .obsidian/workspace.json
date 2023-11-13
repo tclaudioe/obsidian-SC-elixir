@@ -4,22 +4,108 @@
     "type": "split",
     "children": [
       {
-        "id": "2bc899f88aeedc66",
-        "type": "tabs",
+        "id": "c518d515c67accb3",
+        "type": "split",
         "children": [
           {
-            "id": "4465c106eb37af0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Problemas de Valor Inicial.md",
-                "mode": "source",
-                "source": false
+            "id": "4b9497769ab4e42a",
+            "type": "split",
+            "dimension": 42.04724409448819,
+            "children": [
+              {
+                "id": "2bc899f88aeedc66",
+                "type": "tabs",
+                "dimension": 50.20188425302826,
+                "children": [
+                  {
+                    "id": "e500f0085aa66528",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Problemas de Valor de Frontera.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "6e439f79f1fc873d",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "versión numérica.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "301e4451992e1f19",
+                "type": "tabs",
+                "dimension": 49.79811574697174,
+                "children": [
+                  {
+                    "id": "fec5a4973f061eac",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Problemas de Valor Inicial.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "57768907ffa3dfaf",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Método del Disparo.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "e941752e6b641686",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Raíces en 1D/Método de Newton.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
               }
-            }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "77ccdaedeb2b0dd3",
+            "type": "tabs",
+            "dimension": 57.95275590551181,
+            "children": [
+              {
+                "id": "4465c106eb37af0f",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -48,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Tema_9",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +151,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 224.50260543823242,
+    "width": 235.50390243530273,
     "collapsed": true
   },
   "right": {
@@ -87,7 +172,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problemas de Valor Inicial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +188,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problemas de Valor Inicial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +209,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Problemas de Valor Inicial.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,13 +241,16 @@
   },
   "active": "4465c106eb37af0f",
   "lastOpenFiles": [
-    "Ecuaciones diferenciales ordinarias.md",
-    "Problemas de valor de Frontera.md",
-    "Problemas de Valor Inicial.md",
-    "Algoritmos de integración numérica.md",
-    "versión numérica.md",
     "Diferencias Finitas.md",
+    "Problemas de Valor de Frontera.md",
+    "Problemas de Valor Inicial.md",
+    "versión numérica.md",
+    "Raíces en 1D/Método de Newton.md",
+    "Método del Disparo.md",
+    "Ecuaciones diferenciales ordinarias.md",
     "ROOT - Computación Científica.md",
+    "Raíces en 1D/Método de la Secante.md",
+    "Algoritmos de integración numérica.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
     "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
     "CONFIG/Z - Agradecimientos y registro de cambios.md",
@@ -183,9 +267,6 @@
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
     "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
     "Mínimos Cuadrados/Factorización QR.md",
-    "CONFIG/Z - Plugins necesarios.md",
-    "Mínimos Cuadrados/Mínimos cuadrados por minimización.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones no-lineales.md",
     "Untitled.canvas",
     "CONFIG",
     "Mínimos Cuadrados",

@@ -10,21 +10,20 @@ Ahora, si consideramos de forma general,$$
 \begin{align*}
 	\dot{y}(t)&=f(t,y(t)), \,\, \text{para } t\in]0,T],\\
 	y(0)&=y_0,
-\end{align*}
-$$y de forma gráfica,
-
+\end{align*}$$y de forma gráfica,
 ```tikz
 \begin{document}
-\begin{tikzpicture}
-            \draw[line width=0.3mm,->] (-0.5,0) -- (5,0) node[below] {$t$};
-            \draw[line width=0.3mm,->] (0,-0.5) -- (0,3.5) node[left,red] {$y(t)$};
-            \draw[-] (-0.1,2.5) -- (0.1,2.5) node[left,pos=0,blue] {$y_0$};
-            \draw[-] (4.5,-0.1) -- (4.5,0.1) node[below,pos=0,blue] {$T$};
-            \draw[red] (0,2.5) .. controls (0.75,1.5) and (1.75,3) .. (2.25,2);
-            \draw[red] (2.25,2) .. controls (2.75,0.5) and (3.5,2) .. (4.5,1);
-        \end{tikzpicture}
+	\begin{tikzpicture}
+		\draw[line width=0.3mm,->] (-0.5,0) -- (5,0) node[below] {$t$};
+		\draw[line width=0.3mm,->] (0,-0.5) -- (0,3.5) node[left,red] {$y(t)$};
+		\draw[-] (-0.1,2.5) -- (0.1,2.5) node[left,pos=0,blue] {$y_0$};
+		\draw[-] (4.5,-0.1) -- (4.5,0.1) node[below,pos=0,blue] {$T$};
+		\draw[red] (0,2.5) .. controls (0.75,1.5) and (1.75,3) .. (2.25,2);
+		\draw[red] (2.25,2) .. controls (2.75,0.5) and (3.5,2) .. (4.5,1);
+	\end{tikzpicture}
 \end{document}
 ```
+
 Entonces, tanto en la representación algebraica como en la representación gráfica, lo que buscamos es la función $y(t)$, es decir conocemos lo que está en azul y buscamos lo que está en rojo. Notar sin embargo que:
 1. La función $f(t,y)$ es conocida, es decir es una función de dos variables que se puede evaluar en cualquier par ordenado $(t,y)$.
 2. Adicionalmente conocemos al ODE, es decir $\dot{y}(t)=f(t,y(t))$, la cual es válida para todo $t$.
@@ -39,13 +38,11 @@ Considere la ODE,$$\dot{y}(t)=f(t,y(t))$$ la cual es válida par $t\in]0,T]$. In
 $$ utilizando el segundo Teorema Fundamental del Cálculo obtenemos,$$
 y(t_1)-y(0) =\int_0^{t_1} f(s,y(s))\,\mathrm{d}s.
 $$Reemplazando valores conocidos y despejando $y(t_1)$ se obtiene,$$
-y(t_1) =y_0+\int_0^{t_1} f(s,y(s))\,\mathrm{d}s.
-$$Ahora, los distintos algoritmos que discutiremos se basan en _aproximar_ la integral anterior.
+y(t_1) =y_0+\int_0^{t_1} f(s,y(s))\,\mathrm{d}s.$$Ahora, los distintos algoritmos que discutiremos se basan en _aproximar_ la integral anterior.
 # Método de Euler
 Se aproxima $\displaystyle\int_0^{t_1} f(s,y(s))\,\mathrm{d}s$ con la suma de Riemann por la **izquierda**, entonces,$$
-	y(t_1) =y_0+\int_0^{t_1} f(s,y(s))\,\mathrm{d}s,\\
-	\approx y_0+f(0,y_0)\,t_1.
-$$Y de modo general,$$y_{i+1} = y_i+f(t_i,y_i)\,(t_{i+1}-t_i).$$ De forma gráfica se obtiene,
+	y(t_1) =y_0+\int_0^{t_1} f(s,y(s))\,\mathrm{d}s\\
+	\approx y_0+f(0,y_0)\,t_1.$$Y de modo general,$$y_{i+1} = y_i+f(t_i,y_i)\,(t_{i+1}-t_i).$$ De forma gráfica se obtiene,
 ```tikz
 \begin{document}
 \begin{tikzpicture}[scale=3]
@@ -75,7 +72,7 @@ $$Y de modo general,$$y_{i+1} = y_i+f(t_i,y_i)\,(t_{i+1}-t_i).$$ De forma gráfi
     % y_{i+1}
     \node[circle, fill=blue, inner sep=2pt] at (2, {\myfun{1}+\myfunp{1}*1}){};
     \node[anchor=south,blue] at (2, {\myfun{1}+\myfunp{1}*1}) {$y_{i+1}$};
-    \node[anchor=south,blue] at (2.7, {\myfun{1}+\myfunp{1}*1}) {$=y_i+f(t_i,y_i)\,(t_{i+1}-t_i)$};
+    \node[anchor=south,blue] at (2.8, {\myfun{1}+\myfunp{1}*1}) {$=y_i+f(t_i,y_i)\,(t_{i+1}-t_i)$};
     % line
     \draw[-,dashed,red] (1,{\myfun{1}}) -- (2,{\myfun{1}+\myfunp{1}*1}) node[below,pos=0] {};
 
@@ -99,9 +96,8 @@ def eulerMethod(t0,T,N,y0,f):
 ```
 # Backward Euler
 Se aproxima $\displaystyle\int_0^{t_1} f(s,y(s))\,\mathrm{d}s$ con la suma de Riemann por la **derecha**, entonces,$$
-	y(t_1) =y_0+\int_0^{t_1} f(s,y(s))\,\mathrm{d}s,\\
-	\approx y_0+f(t_1,y(t_1))\,t_1.
-$$Y utilizando $y_1\approx y(t_1)$ se obtiene la siguiente ecuación,$$y_1 = y_0+f(t_1,y_1)\,t_1.$$Notar que del integrando solo conocemos su evaluación para el valor $s=0$, por lo que no podemos evaluar $f(t_1,y(t_1))$ porque no conocemos $y(t_1)$, entonces, **¿Cómo obtenemos $y_1$?
+	y(t_1) =y_0+\int_0^{t_1} f(s,y(s))\,\mathrm{d}s\\
+	\approx y_0+f(t_1,y(t_1))\,t_1.$$Y utilizando $y_1\approx y(t_1)$ se obtiene la siguiente ecuación,$$y_1 = y_0+f(t_1,y_1)\,t_1.$$Notar que del integrando solo conocemos su evaluación para el valor $s=0$, por lo que no podemos evaluar $f(t_1,y(t_1))$ porque no conocemos $y(t_1)$, entonces, **¿Cómo obtenemos $y_1$?**
 
 
 
@@ -283,4 +279,4 @@ De forma gráfica,
 ```
 
 #OK 
-#TEMA_9
+#Tema_9
