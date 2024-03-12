@@ -1,3 +1,4 @@
+![[02_AritmeticaPuntoFlotante.tex.png]]
 - Utilizando el estándar 754 de la IEEE solo podemos representar un sub-conjunto de números reales cuando fijamos la cantidad de memoria disponible, en particular se usará 64 *bits* o 8 *Bytes* en la mayoría de los casos.
 - La representación de punto flotante se puede entender como la notación científica para representar números pero en base *2*. Es decir, cualquier número se puede representar en formato de punto flotante.
 - La representación de punto flotante se debe restringir para poder utilizarse en el almacenamiento de números *reales* en un computador.

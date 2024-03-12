@@ -7,6 +7,7 @@
 Organizar las ideas, conceptos y algoritmos discutidos en el curso de Computación Científica de manera de tener un *big picture* que guíe el aprendizaje.
 
 # Pre-requisitos: 
+![[01_BreveIntroAlgebraLineal.tex.png]]
 - Álgebra Lineal
 	- [Esencia del álgebra lineal](https://www.youtube.com/watch?v=0Ndnzx6AyaA&list=PLIb_io8a5NB2DddFf-PwvZDCOUNT1GZoA) - Playlist de [3Blue1Brown](https://www.youtube.com/@3blue1brownespanol)
 	- [Eigenvalues & Eigenvectors](https://www.youtube.com/watch?v=ZoBA6gje2a0) - Video
@@ -28,6 +29,8 @@ Organizar las ideas, conceptos y algoritmos discutidos en el curso de Computaci�
 	- [Matplotlib Cheatsheets](https://matplotlib.org/cheatsheets/) - PDF
 
 # Estructura base
+Se incluye un WordCloud global y por cada tema para una visualización de una selección de palabra claves. _Notar que pueden existir algunos typos involuntarios en las palabras incluidas._
+![[Apuntes_All.tex.png]]
 - [[Estándar de punto flotante IEEE 754]]
 - [[Pérdida de importancia y errores de cancelación]]
 - [[Raíces en 1D]]

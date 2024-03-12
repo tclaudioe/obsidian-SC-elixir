@@ -1,3 +1,4 @@
+![[02_AritmeticaPuntoFlotante.tex.png]]
 Para entender la pérdida de importancia nos podemos basar en la representación de los siguientes número reales: $1$, $x$ y $1+\epsilon_{\text{mach}}$, en la recta numérica.
 
 ```tikz

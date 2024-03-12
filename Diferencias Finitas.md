@@ -67,7 +67,7 @@ En principio utilizaremos las siguientes aproximaciones,$$
             \dfrac{y(x_i+h)-2\,y(x_i)+y(x_i-h)}{h^2}+\mathcal{O}(h^2).
     \end{align*}$$
 # ¿Por qué queremos aproximar la derivada si podríamos obtenerla directamente de la función en estudio?
-La idea de construir una aproximación de la derivada es cuando uno no tiene a su disposición la función _algebraica_, sino una [[versión numérica]] de la función. Por ejemplo, considere que tiene a su disposición el siguiente conjunto de pares ordenados,$$\begin{equation*}
+La idea de construir una aproxim ación de la derivada es cuando uno no tiene a su disposición la función _algebraica_, sino una [[versión numérica]] de la función. Por ejemplo, considere que tiene a su disposición el siguiente conjunto de pares ordenados,$$\begin{equation*}
 \left\{ (x_0,y_0), (x_1,y_1), (x_2,y_2),\dots,(x_{i-1},y_{i-1}),(x_i,y_i),(x_{i+1},y_{i+1}),\dots, (x_n,y_n)\right\},
 \end{equation*}$$Los cuales representan a una aproximación de la función $y(x)$ en los nodos $\{x_0,x_1,\dots,x_{i-1},x_i,x_{i+1},\dots,x_n\}$.
 Entonces, dado que tenemos una versión **discreta** de la función $y(x)$, no podemos obtener su derivada de la _forma tradicional_. 
@@ -153,6 +153,7 @@ $$\begin{align*}
 	y(0)&=u_0,\\
 	y(L)&=u_L,
 \end{align*}$$
+
 La idea es la misma, es decir,
 1. Definir una grilla discreta, por simplicidad, esquiespaciada.
 2. Utilizar las condiciones de borde.

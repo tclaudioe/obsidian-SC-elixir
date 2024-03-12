@@ -1,3 +1,4 @@
+![[07_GMRes.tex.png]]
 **Generalized Minimal Residual Method**
 # Introducción
 

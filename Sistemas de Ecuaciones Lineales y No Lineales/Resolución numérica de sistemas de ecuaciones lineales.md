@@ -1,3 +1,4 @@
+![[04_SistemasEcuacionesLineales.tex.png]]
 Si se tuviera que definir cuales son los temas fundamentales en Computación Científica, sin duda que resolver **sistemas de ecuaciones lineales** estaría en la lista. La razón de esto es porque nos permite resolver la siguiente ecuación:
 $$
 A\,\mathbf{x}=\mathbf{b},

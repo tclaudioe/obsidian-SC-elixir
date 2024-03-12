@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "#rootNode",
@@ -84,10 +84,10 @@
   "nodeSizeMultiplier": 2.34844706668151,
   "lineSizeMultiplier": 1.80624512968941,
   "collapse-forces": false,
-  "centerStrength": 0.474527994791667,
+  "centerStrength": 0.658250981453906,
   "repelStrength": 14.2423502604167,
   "linkStrength": 1,
   "linkDistance": 301,
-  "scale": 0.4355403034017747,
+  "scale": 0.5236294537711703,
   "close": true
 }

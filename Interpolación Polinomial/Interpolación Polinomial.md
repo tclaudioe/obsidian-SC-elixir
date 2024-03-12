@@ -1,3 +1,4 @@
+![[05_Interpolacion.tex.png]]
 # Introducción
 La idea principal detrás de **Interpolación Polinomial** consiste en construir un polinomio a partir de observaciones o datos puntuales de una función. Por ejemplo considere la siguiente gráfica:
 ```run-python

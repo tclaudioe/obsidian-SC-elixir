@@ -1,3 +1,4 @@
+![[06_MinimosCuadrados_y_QR.tex.png]]
 Considere el siguiente ejemplo numérico,
 ```run-python
 np.random.seed(0)

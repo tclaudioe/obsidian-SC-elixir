@@ -1,3 +1,4 @@
+![[09c_BVP.tex.png]]
 Considere el siguiente BVP:$$
 \begin{align*}
 	y''(x)&=0, \,\, \text{para } x\in]0,L[,\\

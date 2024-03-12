@@ -1,3 +1,4 @@
+![[08_IntegracionNumerica.tex.png]]
 Los algoritmos de integración numérica tienen como objetivo base poder estimar el valor de una integral definida que, en la mayoría de los casos, no se puede integrar de forma exacta. La forma general se define a continuación:$$c=\int_a^b f(x)\,\mathrm{d}x,$$donde $a$, $b$ y $c$ son número reales y $f:\mathbb{R}\to\mathbb{R}$. Se denota como $c$ al valor numérico que representa la integral definida. $a$ corresponde al límite inferior de la integral y $b$ corresponde al límite superior de la integral.
 # Selección de Teoremas y propiedades a tener presente
 - $\dfrac{\mathrm{d}}{\mathrm{d}x} F(x)= \dfrac{\mathrm{d}}{\mathrm{d}x} \displaystyle\int_a^x f(x) \,\mathrm{d}x=f(x)$, lo cual corresponde a el _primer Teorema fundamental del cálculo_ (versión corta).

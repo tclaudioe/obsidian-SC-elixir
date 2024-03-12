@@ -1,3 +1,4 @@
+![[09b_IVP.tex.png]]
 Considere el siguiente IVP:$$
 \begin{align*}
 	\dot{y}(t)&=y(t), \,\, \text{para } t\in]0,T],\\

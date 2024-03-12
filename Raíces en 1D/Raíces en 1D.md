@@ -1,3 +1,4 @@
+![[03_Raices1D.tex.png]]
 #Definition La función $f(x)$ tiene una raíz en $x = r$ si $f(r) = 0$. #root
 
 ```tikz
