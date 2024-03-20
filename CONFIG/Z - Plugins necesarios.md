@@ -113,7 +113,7 @@ def cobweb2(x,g=None):
     plt.title('Cobweb diagram')
     plt.grid(True)
     #plt.show()
-	return f
+    return f
 
 ##############################################
 ##############################################

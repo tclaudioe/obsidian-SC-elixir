@@ -25,6 +25,7 @@ for i in np.arange(1,52+1):
 	x+=np.power(2.,-i)
 to_fps_double(x)
 to_fps_double(x+np.power(2.,-52))
+to_fps_double(x+np.power(2.,-54))
 ```
 
 # Casos especiales:

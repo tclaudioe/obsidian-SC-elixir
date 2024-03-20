@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ded0b3f05cb11ff0",
+        "id": "a6be55ab5290bc88",
         "type": "tabs",
         "children": [
           {
-            "id": "e59be04ca6606966",
+            "id": "73f50ee0315458fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONFIG/Z - Plugins necesarios.md",
+                "file": "Representación de punto flotante/Machine Epsilon.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tema_9",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.50390243530273
+    "width": 235.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "adfbb7f5bdd2dc4c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CONFIG/Z - Plugins necesarios.md",
+                "file": "Representación de punto flotante/Machine Epsilon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CONFIG/Z - Plugins necesarios.md",
+                "file": "Representación de punto flotante/Machine Epsilon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CONFIG/Z - Plugins necesarios.md"
+                "file": "Representación de punto flotante/Machine Epsilon.md"
               }
             }
           },
@@ -158,24 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e59be04ca6606966",
+  "active": "73f50ee0315458fe",
   "lastOpenFiles": [
-    "ROOT - Computación Científica.md",
-    "README.md",
-    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
+    "CONFIG/Z - Plugins necesarios.md",
+    "ROOT - Computación Científica.md",
+    "Representación de punto flotante/Representación de máquina.md",
+    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+    "Representación de punto flotante/Bits del exponente solo de 0s.md",
+    "Representación de punto flotante/Bits del exponente solo de 1s.md",
+    "Representación de punto flotante/Regla de redondeo.md",
+    "Representación de punto flotante/Machine Epsilon.md",
+    "WordClouds/Apuntes_All.tex.png",
+    "WordClouds/09c_BVP.tex.png",
+    "WordClouds/09b_IVP.tex.png",
+    "WordClouds/08_IntegracionNumerica.tex.png",
+    "WordClouds/07_GMRes.tex.png",
+    "WordClouds/06_MinimosCuadrados_y_QR.tex.png",
+    "WordClouds/05_Interpolacion.tex.png",
+    "WordClouds/04_SistemasEcuacionesLineales.tex.png",
+    "WordClouds/03_Raices1D.tex.png",
+    "WordClouds/02_AritmeticaPuntoFlotante.tex.png",
+    "README.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
     "Raíces en 1D/Raíces en 1D.md",
-    "WordClouds/Apuntes_All.tex.png",
-    "WordClouds/01_BreveIntroAlgebraLineal.tex.png",
-    "WordClouds/09c_BVP.tex.png",
-    "WordClouds/02_AritmeticaPuntoFlotante.tex.png",
-    "WordClouds/06_MinimosCuadrados_y_QR.tex.png",
-    "WordClouds/08_IntegracionNumerica.tex.png",
-    "WordClouds/03_Raices1D.tex.png",
-    "WordClouds/07_GMRes.tex.png",
-    "WordClouds/04_SistemasEcuacionesLineales.tex.png",
-    "WordClouds/09b_IVP.tex.png",
     "Interpolación Polinomial/Interpolación Polinomial.md",
     "Interpolación Polinomial/Error de Interpolación Polinomial.md",
     "Raíces en 1D/Método de Newton.md",
@@ -190,12 +197,6 @@
     "Problemas de Valor de Frontera.md",
     "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
     "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
-    "Mínimos Cuadrados/Mínimos cuadrados por minimización.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones no-lineales.md",
-    "versión numérica.md",
-    "Método del Disparo.md",
-    "Raíces en 1D/Método de la Secante.md",
-    "CONFIG/Z - Agradecimientos y registro de cambios.md",
     "Untitled.canvas",
     "CONFIG",
     "Mínimos Cuadrados",
