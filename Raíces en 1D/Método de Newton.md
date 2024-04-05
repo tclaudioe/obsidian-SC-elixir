@@ -6,6 +6,7 @@ Buscar la raíz de $f(x)=x-\cos(x)$. Lo primero que necesitamos hacer es obtener
 ```run-python
 f  = lambda x: x-np.cos(x)
 fp = lambda x: 1+np.sin(x)
+
 xi = 1
 for i in np.arange(5):
 	xi = xi-f(xi)/fp(xi)
