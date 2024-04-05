@@ -77,8 +77,7 @@ plt.show()
 	  0 &= a\,f(r), \text{ sumemos $r$}\\
 	  r &= r+a\,f(r)=g(r), \text{ definimos $g(r)$}\\
 	  r &= g(r).
-  \end{align}
-$$
+  \end{align}$$
 Entonces de esta forma hemos construido un punto fijo $r=g(r)$ tal que el valor de $r$ también es la raíz de $f(x)$!! 😀 La única duda que surge acá es la definición de $a$, en este caso diremos que es un parámetro ajustable. Ver [[Convergencia de una Iteración de Punto Fijo]] .
 # Link sugeridos
 - [Diagrama Cobweb](https://en.wikipedia.org/wiki/Cobweb_plot)

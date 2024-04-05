@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representación de punto flotante/Machine Epsilon.md",
+                "file": "Raíces en 1D/Método de Newton.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representación de punto flotante/Machine Epsilon.md",
+                "file": "Raíces en 1D/Método de Newton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representación de punto flotante/Machine Epsilon.md",
+                "file": "Raíces en 1D/Método de Newton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representación de punto flotante/Machine Epsilon.md"
+                "file": "Raíces en 1D/Método de Newton.md"
               }
             }
           },
@@ -161,15 +162,21 @@
   },
   "active": "73f50ee0315458fe",
   "lastOpenFiles": [
-    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "CONFIG/Z - Plugins necesarios.md",
+    "Raíces en 1D/Raíces en 1D.md",
     "ROOT - Computación Científica.md",
+    "Raíces en 1D/Iteración de Punto Fijo.md",
+    "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
+    "Raíces en 1D/Convergencia Numérica.md",
+    "Raíces en 1D/Método de la Bisección.md",
+    "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md",
+    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
+    "Representación de punto flotante/Regla de redondeo.md",
+    "Representación de punto flotante/Machine Epsilon.md",
+    "CONFIG/Z - Plugins necesarios.md",
     "Representación de punto flotante/Representación de máquina.md",
     "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
     "Representación de punto flotante/Bits del exponente solo de 0s.md",
     "Representación de punto flotante/Bits del exponente solo de 1s.md",
-    "Representación de punto flotante/Regla de redondeo.md",
-    "Representación de punto flotante/Machine Epsilon.md",
     "WordClouds/Apuntes_All.tex.png",
     "WordClouds/09c_BVP.tex.png",
     "WordClouds/09b_IVP.tex.png",
@@ -182,7 +189,6 @@
     "WordClouds/02_AritmeticaPuntoFlotante.tex.png",
     "README.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
-    "Raíces en 1D/Raíces en 1D.md",
     "Interpolación Polinomial/Interpolación Polinomial.md",
     "Interpolación Polinomial/Error de Interpolación Polinomial.md",
     "Raíces en 1D/Método de Newton.md",
@@ -192,11 +198,6 @@
     "Diferencias Finitas.md",
     "Algoritmos de integración numérica.md",
     "Problemas de Valor Inicial.md",
-    "Ecuaciones diferenciales ordinarias.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
-    "Problemas de Valor de Frontera.md",
-    "Mínimos Cuadrados/Problemas de mínimos cuadrados.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
     "Untitled.canvas",
     "CONFIG",
     "Mínimos Cuadrados",
