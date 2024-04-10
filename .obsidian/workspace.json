@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raíces en 1D/Método de Newton.md",
+                "file": "ROOT - Computación Científica.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raíces en 1D/Método de Newton.md",
+                "file": "ROOT - Computación Científica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raíces en 1D/Método de Newton.md",
+                "file": "ROOT - Computación Científica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raíces en 1D/Método de Newton.md"
+                "file": "ROOT - Computación Científica.md"
               }
             }
           },
@@ -164,6 +164,7 @@
   "lastOpenFiles": [
     "Raíces en 1D/Raíces en 1D.md",
     "ROOT - Computación Científica.md",
+    "Raíces en 1D/Método de Newton.md",
     "Raíces en 1D/Iteración de Punto Fijo.md",
     "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
     "Raíces en 1D/Convergencia Numérica.md",
@@ -191,7 +192,6 @@
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
     "Interpolación Polinomial/Interpolación Polinomial.md",
     "Interpolación Polinomial/Error de Interpolación Polinomial.md",
-    "Raíces en 1D/Método de Newton.md",
     "Mínimos Cuadrados/Factorización QR.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Factorización LU.md",
     "Interpolación Polinomial/Interpolación Baricéntrica.md",

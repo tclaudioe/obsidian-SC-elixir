@@ -17,6 +17,8 @@ Organizar las ideas, conceptos y algoritmos discutidos en el curso de Computaci�
 - Cálculo diferencial e integral, i.e. desde Matemáticas I a Matemáticas IV
 	- [La esencia del cálculo](https://www.youtube.com/watch?v=ykwjb-OGimE) - Video
 	- [3Blue1Brown](https://www.youtube.com/@3blue1brown) - Canal en inglés de temas Matemáticos - en inglés
+	- [Varias CheatSheets](https://tutorial.math.lamar.edu/), ver ver secciones "CHEAT SHEETS & TABLES" y "REVIEWS & EXTRAS". Las otras secciones también son interesantes.
+	- [CheatSheet de Cálculo](https://sac.edu/AcademicProgs/ScienceMathHealth/MathCenter/Documents/calculus%20cheat%20sheet.pdf)
 - Estructura de Datos
 - Algoritmos y Complejidad
 - Utilización de bibliotecas avanzadas para manipulación *vectorizada* de vectores y matrices #vectorizacion
