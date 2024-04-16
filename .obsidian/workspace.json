@@ -14,7 +14,43 @@
               "type": "markdown",
               "state": {
                 "file": "ROOT - Computación Científica.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "880fbf760300b581",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8507138effb6579",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09eb25813619a0b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raíces en 1D/Raíces en 1D.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -163,6 +199,8 @@
   "active": "73f50ee0315458fe",
   "lastOpenFiles": [
     "Raíces en 1D/Raíces en 1D.md",
+    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
     "ROOT - Computación Científica.md",
     "Raíces en 1D/Método de Newton.md",
     "Raíces en 1D/Iteración de Punto Fijo.md",
@@ -170,12 +208,10 @@
     "Raíces en 1D/Convergencia Numérica.md",
     "Raíces en 1D/Método de la Bisección.md",
     "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md",
-    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
     "Representación de punto flotante/Regla de redondeo.md",
     "Representación de punto flotante/Machine Epsilon.md",
     "CONFIG/Z - Plugins necesarios.md",
     "Representación de punto flotante/Representación de máquina.md",
-    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
     "Representación de punto flotante/Bits del exponente solo de 0s.md",
     "Representación de punto flotante/Bits del exponente solo de 1s.md",
     "WordClouds/Apuntes_All.tex.png",

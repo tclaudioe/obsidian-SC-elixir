@@ -57,16 +57,14 @@ Notar que en este caso se utilizó la [Regla de redondeo](Regla%20de%20redondeo.
 	  f(x) &= 1-\sqrt{1-x}\\
 		&= \left(1-\sqrt{1-x}\right)\,\dfrac{\left(1+\sqrt{1-x}\right)}{\left(1+\sqrt{1-x}\right)}\\
 		&= \dfrac{x}{1+\sqrt{1-x}}.
-  \end{align}
-  $$
+  \end{align}$$
   - Paso 2: Evaluar la expresión, $$
   \begin{align}
   o_2 &= f(\epsilon_{\text{mach}}/8)\\
 	  &= \dfrac{\epsilon_{\text{mach}}/8}{1+\sqrt{\textbf{fl}(1-\epsilon_{\text{mach}}/8)}}\\
 	  &= \dfrac{\epsilon_{\text{mach}}/8}{1+\sqrt{1}}\\
 	  &= \epsilon_{\text{mach}}/16.
-  \end{align}
-  $$
+  \end{align}$$
 ```run-python
 epsMach = np.power(2.,-52)
 f1 = lambda x: 1-np.sqrt(1-x)
