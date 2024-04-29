@@ -13,43 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROOT - Computación Científica.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "880fbf760300b581",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8507138effb6579",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09eb25813619a0b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Raíces en 1D/Raíces en 1D.md",
+                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
                 "mode": "preview",
                 "source": false
               }
@@ -101,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 235.50390243530273,
-    "collapsed": true
+    "width": 235.50390243530273
   },
   "right": {
     "id": "adfbb7f5bdd2dc4c",
@@ -123,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROOT - Computación Científica.md",
+                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROOT - Computación Científica.md",
+                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROOT - Computación Científica.md"
+                "file": "Interpolación Polinomial/Interpolación Polinomial.md"
               }
             }
           },
@@ -198,10 +160,24 @@
   },
   "active": "73f50ee0315458fe",
   "lastOpenFiles": [
+    "Interpolación Polinomial/Puntos de Chebyshev.md",
+    "Interpolación Polinomial/Interpolación Polinomial.md",
+    "Interpolación Polinomial/Fenómeno de Runge.md",
+    "Interpolación Polinomial/Error de Interpolación Polinomial.md",
+    "Interpolación Polinomial/Interpolación Baricéntrica.md",
+    "Interpolación Polinomial/Interpolación de Lagrange.md",
+    "Interpolación Polinomial/Interpolación con la matriz de Vandermonde.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Factorización LU.md",
+    "ROOT - Computación Científica.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Eliminación Gaussiana.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Factorización PALU.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
     "Raíces en 1D/Raíces en 1D.md",
     "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "ROOT - Computación Científica.md",
     "Raíces en 1D/Método de Newton.md",
     "Raíces en 1D/Iteración de Punto Fijo.md",
     "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
@@ -210,10 +186,6 @@
     "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md",
     "Representación de punto flotante/Regla de redondeo.md",
     "Representación de punto flotante/Machine Epsilon.md",
-    "CONFIG/Z - Plugins necesarios.md",
-    "Representación de punto flotante/Representación de máquina.md",
-    "Representación de punto flotante/Bits del exponente solo de 0s.md",
-    "Representación de punto flotante/Bits del exponente solo de 1s.md",
     "WordClouds/Apuntes_All.tex.png",
     "WordClouds/09c_BVP.tex.png",
     "WordClouds/09b_IVP.tex.png",
@@ -224,16 +196,6 @@
     "WordClouds/04_SistemasEcuacionesLineales.tex.png",
     "WordClouds/03_Raices1D.tex.png",
     "WordClouds/02_AritmeticaPuntoFlotante.tex.png",
-    "README.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
-    "Interpolación Polinomial/Interpolación Polinomial.md",
-    "Interpolación Polinomial/Error de Interpolación Polinomial.md",
-    "Mínimos Cuadrados/Factorización QR.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Factorización LU.md",
-    "Interpolación Polinomial/Interpolación Baricéntrica.md",
-    "Diferencias Finitas.md",
-    "Algoritmos de integración numérica.md",
-    "Problemas de Valor Inicial.md",
     "Untitled.canvas",
     "CONFIG",
     "Mínimos Cuadrados",

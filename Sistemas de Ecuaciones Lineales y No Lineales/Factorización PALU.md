@@ -31,8 +31,7 @@ Considere el siguiente sistema de ecuaciones lineales,$$
 \begin{bmatrix}
 	0\\
 	1
-\end{bmatrix}.
-$$ La cual no resuelve el sistema de ecuaciones lineales original.
+\end{bmatrix}.$$ La cual no resuelve el sistema de ecuaciones lineales original.
 
 Por otro lado, si alternamos las filas del sistema de ecuaciones lineales asociado, por medio de la multiplicación por la izquierda de la matriz de permutación $$
 P=
@@ -76,8 +75,7 @@ P \, A \, \mathbf{x} &= P\,\mathbf{b}\\
 	4\\
 	1
 \end{bmatrix}
-\end{align}
-$$
+\end{align}$$
 Notar que en este caso la permutación de filas tiene que ser aplicada tanto al lado izquierdo de la ecuación como al lado derecho del sistema de ecuaciones lineales. Entonces, ahora, si aplicamos la [[Factorización LU]] a la matriz de este nuevo sistema de ecuaciones lineales, obtenemos la siguiente factorización, $$\begin{bmatrix}
     		1 & 0\\
     		&\\
@@ -94,8 +92,7 @@ Notar que en este caso la permutación de filas tiene que ser aplicada tanto al 
 \begin{bmatrix}
 	2\\
 	1
-\end{bmatrix}.
-$$
+\end{bmatrix}.$$
 ## ¿Qué es el pivote?
 En la [[Factorización LU]] se utilizan los coeficiente que van quedando en la diagonal como pivote para hacer cero los coeficiente bajo la diagonal, por ejemplo considere la siguiente matriz,$$
 \begin{bmatrix}

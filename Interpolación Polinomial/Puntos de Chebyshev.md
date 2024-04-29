@@ -1,8 +1,7 @@
 Recordando la fórmula del [[Error de Interpolación Polinomial]]:$$\begin{equation*}
 	f(x) - p(x) = \frac{(x-x_{1})(x-x_{2})...(x-x_{n})}{n!} \, f^{(n)}(c).
 \end{equation*}$$Entonces, de análisis realizado anteriormente, lo _único_ que podemos **elegir** adicionalmente en la fórmula anterior son los puntos de interpolación $x_i$. En particular, nos interesa buscar los puntos $x_i$ tales que minimice el peor caso de:
-$$
-\min_{\displaystyle{x_i\in[-1,1]}} \max_{\displaystyle{-1 \leq x \leq 1}} \left|(x-x_1)\dots(x-x_n)\right|.$$ Lo cual se resume en el siguiente #Teorema :
+$$\min_{\displaystyle{x_i\in[-1,1]}} \max_{\displaystyle{-1 \leq x \leq 1}} \left|(x-x_1)\dots(x-x_n)\right|.$$ Lo cual se resume en el siguiente #Teorema :
 
 #Teorema  #TeoremaDeChebyshev
     	La elección de los números reales $-1 \leq x_1,x_2,\dots,x_n \leq 1$ que hace el valor de   	$$\begin{align*}

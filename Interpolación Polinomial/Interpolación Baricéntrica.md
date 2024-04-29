@@ -29,8 +29,7 @@ $$ La cual es válida para cualquier valor de $n$.
 - Utilizando la identidad recién obtenida para $l(x)$ en la interpolación **pre-Baricéntrica**, obtenemos la siguiente representación,$$\begin{align*}
    p_{n-1}(x) & = l(x)\,\sum_{i=1}^n y_i\,\dfrac{w_i}{(x-x_i)}\\
    & = \dfrac{\displaystyle{\sum_{i=1}^n y_i\,\dfrac{w_i}{(x-x_i)}}}{\displaystyle{\sum_{i=1}^n \dfrac{w_i}{(x-x_i)}}}
-   \end{align*}
-  $$ La cual es la _gran_ **Interpolación Baricéntrica**!!
+   \end{align*}$$ La cual es la _gran_ **Interpolación Baricéntrica**!!
    
 # Caso Base
 Considere que tiene a su disposición los puntos $(x_1,y_1)$ y $(x_2,y_2)$.

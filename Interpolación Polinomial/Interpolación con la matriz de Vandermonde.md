@@ -26,8 +26,7 @@ La idea es la misma, pero ahora tendremos $n$ pares ordenados, digamos: $(x_1,y_
    \begin{align*}
 	   p_{n-1}(x) &= \sum_{i=0}^{n-1} a_{i}\,x^i\\
 	   &= a_0+a_1\,x+a_2\,x^2+\dots+a_{n-1}\,x^{n-1}.
-   \end{align*}
-   $$
+   \end{align*}$$
    Notar que esta estructura es compatible con el caso base cuando $n=2$.
 2. La conexión de la estructura polinomial y la data queda de la siguiente forma,$$
    \begin{align*}
