@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
+                "file": "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
+                "file": "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
+                "file": "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md"
+                "file": "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md"
               }
             }
           },
@@ -161,11 +161,11 @@
   },
   "active": "73f50ee0315458fe",
   "lastOpenFiles": [
-    "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
     "Mínimos Cuadrados/Factorización QR.md",
     "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
+    "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
     "Interpolación Polinomial/Puntos de Chebyshev.md",
     "ROOT - Computación Científica.md",
     "Interpolación Polinomial/Interpolación Polinomial.md",

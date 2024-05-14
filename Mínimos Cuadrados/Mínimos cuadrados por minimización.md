@@ -11,7 +11,7 @@ $$
    \end{align*}$$
 2. Igualamos a $\textbf{0}$ el gradiente y simplificamos,$$\begin{align*}
 	\sum_{i=1}^m (y_i-\overline{a}-\overline{b}\,x_i) &=0,\\
-	\sum_{i=1}^m -x_i\,(y_i-\overline{a}-\overline{b}\,x_i) &=0.
+	\sum_{i=1}^m x_i\,(y_i-\overline{a}-\overline{b}\,x_i) &=0.
    \end{align*}$$Notar que en las ecuaciones aparecen $\overline{a}$ y $\overline{b}$ porque corresponden a los valores de $a$ y $b$ que resuelven las ecuaciones anteriores, son valores particulares, por eso es necesarios definirlos de forma distinta. En este caso serían los valores que minimizan el error.
 3. Re-escribimos como un sistema de ecuaciones lineales:$$\begin{equation}
         \begin{bmatrix}
