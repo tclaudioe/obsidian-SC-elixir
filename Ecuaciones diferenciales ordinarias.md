@@ -5,7 +5,7 @@ Hasta este puntos hemos discutido diversos temas, por ejemplo:
 4. [[Resolución numérica de sistemas de ecuaciones lineales]]
 5. [[Resolución numérica de sistemas de ecuaciones no-lineales]]
 6. [[Interpolación Polinomial]]
-7. [[Problemas de mínimos cuadrados]]
+7. [[Problemas de Mínimos Cuadrados]]
 8. [[Algoritmos de integración numérica]]
 Los cuales se podrían haber entendido como temas **independientes**, sin embargo ya sabemos que en realidad todos los temas se van acoplando de una u otra forma.
 
@@ -16,7 +16,7 @@ En las secciones anteriores, por ejemplo, se buscaba una escalar, un vector o un
 - En [[Raíces en 1D]] se busca un escalar, denominado $r$, tal que $f(r)=0$.
 - En [[Resolución numérica de sistemas de ecuaciones lineales]] y [[Resolución numérica de sistemas de ecuaciones no-lineales]] se buscaba un vector, digamos $\mathbf{x}$, tal que $A\,\mathbf{x}=\mathbf{b}$ o, $\mathbf{F}(\mathbf{x})=\mathbf{0}$.
 - En [[Interpolación Polinomial]] se busca una representación continua, es decir un polinomio $p(x)$, tal que interpole un conjunto de datos $p(x_i)=y_i$.
-- En [[Problemas de mínimos cuadrados]] se busca un vector que minimice el error cuadrático, es decir $\overline{\mathbf{x}}=\underset{\mathbf{x}\in\mathbb{R}^n}{\text{argmin}}\|\mathbf{b}-A\,\mathbf{x}\|$, que también, en algunos casos, se conecta con una representación continua, como lo sería, por ejemplo, una recta que minimiza el error cuadrático.
+- En [[Problemas de Mínimos Cuadrados]] se busca un vector que minimice el error cuadrático, es decir $\overline{\mathbf{x}}=\underset{\mathbf{x}\in\mathbb{R}^n}{\text{argmin}}\|\mathbf{b}-A\,\mathbf{x}\|$, que también, en algunos casos, se conecta con una representación continua, como lo sería, por ejemplo, una recta que minimiza el error cuadrático.
 - En [[Algoritmos de integración numérica]] se busca el valor de la integral, es decir $c$, tal que $c\approx \displaystyle\sum_{i=1}^n f(x_i)\,w_i$.
 Ahora, en ODE (del _inglés_ Ordinary Differential Equations) lo que se tiene es una **ecuación diferencial** donde la incógnita es **una función** de **una variable**. En particular, se consideran dos posibles casos:
 - $y(t)$, es decir una función que dependen de una variable _temporal_. A estos problemas se les denomina [[Problemas de Valor Inicial]] o **Initial Value Problems**.

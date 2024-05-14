@@ -7,7 +7,7 @@ $$
 ## ¿Cómo encontrámos el mínimo de $E(a,b)$?
 1. Obtenemos el gradiente de $E(a,b)$: $\nabla E(a,b)$, $$\begin{align*}
 	\dfrac{\partial}{\partial a} E(a,b) &= -2\,\sum_{i=1}^m (y_i-a-b\,x_i),\\
-	\dfrac{\partial}{\partial b} E(a,b) &= \sum_{i=1}^m -x_i\,(y_i-a-b\,x_i).
+	\dfrac{\partial}{\partial b} E(a,b) &= -2\,\sum_{i=1}^m x_i\,(y_i-a-b\,x_i).
    \end{align*}$$
 2. Igualamos a $\textbf{0}$ el gradiente y simplificamos,$$\begin{align*}
 	\sum_{i=1}^m (y_i-\overline{a}-\overline{b}\,x_i) &=0,\\

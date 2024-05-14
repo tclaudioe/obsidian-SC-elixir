@@ -112,7 +112,7 @@ $$
 $$
 # ¿Cómo obtenemos el _mejor_ modelo entonces?
 Minimizando $E(a,b)$, para lo cual tenemos 2 familias de algoritmos:
-- [[Mínimos cuadrados por minimización]]
+- [[Mínimos Cuadrados por Minimización]]
 - [[Mínimos Cuadrados desde el Álgebra Lineal]] 
 
 # Ejemplos de modelos

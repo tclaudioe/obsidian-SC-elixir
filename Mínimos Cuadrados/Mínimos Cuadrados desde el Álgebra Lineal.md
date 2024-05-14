@@ -1,4 +1,4 @@
-En la introducción anterior, es decir [[Problemas de mínimos cuadrados]], se presentó la siguiente gráfica,
+En la introducción anterior, es decir [[Problemas de Mínimos Cuadrados]], se presentó la siguiente gráfica,
 ```tikz
 \begin{document}
   \begin{tikzpicture}
@@ -178,12 +178,12 @@ Retomando el caso inicial, escribir explícitamente las ecuaciones normales,$$\b
         \begin{bmatrix}
             \displaystyle{\sum_{i=1}^{m} y_{i}} \\
     		\displaystyle{\sum_{i=1}^{m} y_{i} \, x_i}
-        \end{bmatrix}.$$ El cual es el mismo sistema de ecuaciones lineales que se obtuvo antes en [[Mínimos cuadrados por minimización]]!! Lo que indica que ambos procedimientos son equivalentes!
+        \end{bmatrix}.$$ El cual es el mismo sistema de ecuaciones lineales que se obtuvo antes en [[Mínimos Cuadrados por Minimización]]!! Lo que indica que ambos procedimientos son equivalentes!
 
 En resumen, este procedimiento nos entregó las **ecuaciones normales**, es decir, $A^*\,A\,\overline{\mathbf{x}}=A^*\,\mathbf{b}$, las cuales efectivamente entregan el vector $\overline{\mathbf{x}}$ que minimiza el error cuadrático $\|\mathbf{b}-A\,\mathbf{x}\|_2^2$.
 
 # Ventajas
-1. Procedimiento alternativo a [[Mínimos cuadrados por minimización]] que no requiere la computación de ningún gradiente.
+1. Procedimiento alternativo a [[Mínimos Cuadrados por Minimización]] que no requiere la computación de ningún gradiente.
 2. Permite conectar los problemas de mínimos cuadrados con Álgebra Lineal.
 # Desventajas
 1. Requiere la computación de las ecuaciones normales, la cual es un producto matriz-matriz.

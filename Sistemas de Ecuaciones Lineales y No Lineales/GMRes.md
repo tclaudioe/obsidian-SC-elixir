@@ -43,7 +43,7 @@ $$Desde un punto de vista gráfico, se puede interpretar de la siguiente forma, 
 		\end{tikzpicture}
 	\end{document}
 ```
-Entonces lo que se minimiza en este caso es el error cuadrático. **Sin embargo, se debe considerar que en este caso la minimización cuadrática es con restricciones debido a que $\widehat{\mathbf{x}}_k\in\mathcal{K}_k$, lo cual es distinto a lo discutido anteriormente en [[Problemas de mínimos cuadrados]]. Afortunadamente esto se solucionará prontamente!**
+Entonces lo que se minimiza en este caso es el error cuadrático. **Sin embargo, se debe considerar que en este caso la minimización cuadrática es con restricciones debido a que $\widehat{\mathbf{x}}_k\in\mathcal{K}_k$, lo cual es distinto a lo discutido anteriormente en [[Problemas de Mínimos Cuadrados]]. Afortunadamente esto se solucionará prontamente!**
 # El desafío de encontrar una base adecuada
 Si bien uno podría construir el sub espacio de Krylov $\mathcal{K}_k=\text{span}\left(\mathbf{b}, A\,\mathbf{b}, A^2\,\mathbf{b}, A^3\,\mathbf{b}, \dots, A^{k-1}\,\mathbf{b}\right)$ directamente, se genera un problema al utilizar el [[Estándar de punto flotante IEEE 754]] . Por ejemplo considere el siguiente gráfico,
 ```tikz

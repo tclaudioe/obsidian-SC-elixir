@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
+                "file": "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.50390243530273
+    "width": 235.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "adfbb7f5bdd2dc4c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
+                "file": "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
+                "file": "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interpolación Polinomial/Interpolación Polinomial.md"
+                "file": "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md"
               }
             }
           },
@@ -160,7 +161,13 @@
   },
   "active": "73f50ee0315458fe",
   "lastOpenFiles": [
+    "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
+    "Mínimos Cuadrados/Factorización QR.md",
+    "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
     "Interpolación Polinomial/Puntos de Chebyshev.md",
+    "ROOT - Computación Científica.md",
     "Interpolación Polinomial/Interpolación Polinomial.md",
     "Interpolación Polinomial/Fenómeno de Runge.md",
     "Interpolación Polinomial/Error de Interpolación Polinomial.md",
@@ -168,7 +175,6 @@
     "Interpolación Polinomial/Interpolación de Lagrange.md",
     "Interpolación Polinomial/Interpolación con la matriz de Vandermonde.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Factorización LU.md",
-    "ROOT - Computación Científica.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Eliminación Gaussiana.md",
@@ -181,11 +187,6 @@
     "Raíces en 1D/Método de Newton.md",
     "Raíces en 1D/Iteración de Punto Fijo.md",
     "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
-    "Raíces en 1D/Convergencia Numérica.md",
-    "Raíces en 1D/Método de la Bisección.md",
-    "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md",
-    "Representación de punto flotante/Regla de redondeo.md",
-    "Representación de punto flotante/Machine Epsilon.md",
     "WordClouds/Apuntes_All.tex.png",
     "WordClouds/09c_BVP.tex.png",
     "WordClouds/09b_IVP.tex.png",

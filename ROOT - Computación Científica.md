@@ -39,7 +39,7 @@ Se incluye un WordCloud global y por cada tema para una visualización de una se
 - [[Resolución numérica de sistemas de ecuaciones lineales]]
 - [[Resolución numérica de sistemas de ecuaciones no-lineales]]
 - [[Interpolación Polinomial]]
-- [[Problemas de mínimos cuadrados]]
+- [[Problemas de Mínimos Cuadrados]]
 - [[Algoritmos de integración numérica]]
 - [[Ecuaciones diferenciales ordinarias]]
 
