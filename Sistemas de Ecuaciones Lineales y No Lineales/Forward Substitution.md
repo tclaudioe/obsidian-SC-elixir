@@ -28,7 +28,7 @@ c_1 &= b_1,\\
 l_{2,1}\,c_1+c_2 &= b_2,\\
 l_{3,1}\,c_1+l_{3,2}\,c_2+c_3 &= b_3,\\
 \vdots &= \vdots\\
-\left(\sum_{k=1}^{n-1} l_{n,k}\right)+c_n &=b_n.
+\left(\sum_{k=1}^{n-1} l_{n,k}\,c_k\right)+c_n &=b_n.
 \end{align*}
 $$ Las cuales se pueden despejar de la siguiente forma,$$
 \begin{align*}

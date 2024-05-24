@@ -25,8 +25,8 @@ Se conoce como **Backward Substitution** al algoritmo que permite resolver un si
 De lo anterior, rápidamente notamos que podemos obtener $x_n$ de la **última ecuación** del sistema, es decir $u_{n,n}\,x_n=c_n$. Luego para la penúltima ecuación, $u_{n-1,n-1}\,x_{n-1}+u_{n-1,n}\,x_n=c_{n-1}$ podemos despejar $x_{n-1}$ y así sucesivamente. En resumen, el sistema de ecuaciones lineales anterior se puede transformar en las siguientes expresiones,$$
 \begin{align*}
 \sum_{k=1}^{n} u_{1,k}\,x_k &=c_1\\
-\sum_{k=2}^{n} u_{1,k}\,x_k &=c_2\\
-\sum_{k=3}^{n} u_{1,k}\,x_k &=c_3\\
+\sum_{k=2}^{n} u_{2,k}\,x_k &=c_2\\
+\sum_{k=3}^{n} u_{3,k}\,x_k &=c_3\\
 \vdots &= \vdots\\
 u_{n-1,n-1}\,x_{n-1}+u_{n-1,n}\,x_n &=c_{n-1}\\
 u_{n,n}\,x_n&=c_n.

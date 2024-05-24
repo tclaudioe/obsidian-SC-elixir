@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
-                "mode": "preview",
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.50390243530273,
-    "collapsed": true
+    "width": 235.50390243530273
   },
   "right": {
     "id": "adfbb7f5bdd2dc4c",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md"
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md"
               }
             }
           },
@@ -161,8 +160,9 @@
   },
   "active": "73f50ee0315458fe",
   "lastOpenFiles": [
-    "Mínimos Cuadrados/Factorización QR.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
     "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
+    "Mínimos Cuadrados/Factorización QR.md",
     "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
     "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
     "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
@@ -180,7 +180,6 @@
     "Sistemas de Ecuaciones Lineales y No Lineales/Eliminación Gaussiana.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Factorización PALU.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
     "Raíces en 1D/Raíces en 1D.md",
     "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
