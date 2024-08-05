@@ -14,12 +14,12 @@ Los algoritmos de integración numérica tienen como objetivo base poder estimar
 ## Donde SÍ podríamos integrar de forma exacta con seguridad
 Considere $\alpha\in\mathbb{R}$, $n>1$.
 - $\displaystyle\int_a^b \alpha \,\mathrm{d}x=\alpha \int_a^b 1 \,\mathrm{d}x=\alpha\,(b-a)$
-- $\displaystyle\int_a^b \alpha\,x \,\mathrm{d}x=\alpha\,(b-a)$
+- $\displaystyle\int_a^b \alpha\,x \,\mathrm{d}x=\alpha\,\left(\dfrac{b^2-a^2}{2}\right)$
 - $\displaystyle\int_a^b \alpha\,x^n \,\mathrm{d}x=\alpha\,\left.\dfrac{x^{n+1}}{n+1}\right|_a^b=\alpha\,\left(\dfrac{b^{n+1}}{n+1}-\dfrac{a^{n+1}}{n+1}\right)$
 - $\displaystyle\int_a^b \exp(x) \,\mathrm{d}x=\alpha\,(\exp(b)-\exp(a))$
 ## Donde NO podríamos integrar de forma exacta con seguridad
-- $\displaystyle\int_a^b \dfrac{\sin(x)}{x} \,\mathrm{d}x$
-- $\displaystyle\int_a^b \exp\left(-x^2\right) \,\mathrm{d}x$
+- $\displaystyle\int \dfrac{\sin(x)}{x} \,\mathrm{d}x$
+- $\displaystyle\int \exp\left(-x^2\right) \,\mathrm{d}x$
 # ¿Qué hacemos con los casos donde NO se puede integrar _exactamente_?
 ¡Integrar numéricamente!
 

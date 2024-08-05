@@ -10,16 +10,78 @@
           {
             "id": "552a2262e5c07b86",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+                "file": "ROOT - Computación Científica.md",
                 "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            },
+            "group": "804c3d2f0e4be3d3"
+          }
+        ]
+      },
+      {
+        "id": "ce38eac43f01e261",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f414da346ce2cf8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "ROOT - Computación Científica.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 2.4764645590697962,
+                  "close": true
+                }
+              },
+              "pinned": true
+            },
+            "group": "804c3d2f0e4be3d3"
+          },
+          {
+            "id": "19b13fbf33f5f191",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raíces en 1D/Método de Newton.md",
+                "mode": "preview",
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +157,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+            "file": "Raíces en 1D/Método de Newton.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,7 +174,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+            "file": "Raíces en 1D/Método de Newton.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -124,7 +186,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md"
+            "file": "Raíces en 1D/Método de Newton.md"
           }
         }
       }
@@ -141,15 +203,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "552a2262e5c07b86",
+  "active": "19b13fbf33f5f191",
   "lastOpenFiles": [
-    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+    "Raíces en 1D/Raíces en 1D.md",
+    "Raíces en 1D/Método de Newton.md",
     "ROOT - Computación Científica.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
     "Interpolación Polinomial/Interpolación de Lagrange.md",
     "Interpolación Polinomial/Interpolación Baricéntrica.md",
     "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md",
-    "Raíces en 1D/Método de Newton.md",
     "Sistemas de Ecuaciones Lineales/Backward Substitution.md",
     "Mínimos Cuadrados/Factorización QR.md",
     "CONFIG/Z - Plugins necesarios.md",
@@ -167,7 +230,6 @@
     "Representación de punto flotante/Regla de redondeo.md",
     "Representación de punto flotante/Machine Epsilon.md",
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "Raíces en 1D/Método de la Bisección.md",
-    "Raíces en 1D/Raíces en 1D.md"
+    "Raíces en 1D/Método de la Bisección.md"
   ]
 }

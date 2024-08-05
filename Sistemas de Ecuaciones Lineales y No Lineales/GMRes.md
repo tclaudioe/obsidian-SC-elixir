@@ -235,7 +235,7 @@ for k in np.arange(m):
 	y = np.dot(A, Q[:,k]) # y = afun(Q[:,k])
 	for j in np.arange(k+1):
 		H[j,k] = np.dot(Q[:,j], y)
-		y = y - np.dot(H[j,k],Q[:,j])
+		y = y - H[j,k]*Q[:,j]
 	H[k+1,k] = np.linalg.norm(y)
 	if (np.abs(H[k+1,k]) > 1e-16):
 		Q[:,k+1] = y/H[k+1,k]

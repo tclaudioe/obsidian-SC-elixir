@@ -13,6 +13,34 @@
 - El coeficiente $1023$ se corresponde al *shift* utilizado para representar número positivos y negativos del exponente.
 - Los coeficientes binarios $b_i$ y $e_j$ de la mantisa y exponente se definen en función del número a representar.
 - En general si se quiere almacenar el número real $x$ en memoria, solo se puede asegurar que se almacenará  $\text{fl}(x)$ #notacionFL , que corresponde a la aproximación de punto flotante de $x$, por ejemplo si se considera #doublePrecision significa que se usarán los 64 *bits* para almacenar el número más cercano a $x$, es decir $\text{fl}(x)$. #repNormal #repSubNormal.
+
+# Un ejemplo simple de por qué necesitamos estar pendiente de la computación que se haga con _double precision_
+
+```run-python
+# Se almacena un número de ejemplo en _double precision_
+a = 1./9
+# Se muestra el número almacenado
+print(a)
+# Se muestra los bits asociados al _signo_, _exponente_, y _mantisa_
+to_fps_double(a)
+```
+Ejecutamos la siguiente computación que en **aritmética exacta** debería dar $0$.
+```run-python
+b = (a*10)/10 - a
+print(b)
+```
+El problema es que no es $0$ pero debe ser $0$. Miremos los pasos intermedio.
+```run-python
+print('(a*10):')
+to_fps_double((a*10))
+print('(a*10)/10:')
+to_fps_double((a*10)/10)
+print('b=(a*10)/10 - a')
+to_fps_double(b)
+print('np.log2(b):',np.log2(b))
+```
+
+En la práctica multiplicar por $10$ y luego dividir por $10$ en _double precision_ no se cancela exactamente, solo aproximadamente debido a que tenemos una cantidad finita de bits para ser representados computacionalmente.
 # Links sugeridos
 - [Jupyter Notebook de Representación de Punto Flotante](https://github.com/tclaudioe/Scientific-Computing/blob/master/SC1v2/02_floating_point_arithmetic.ipynb)
 
