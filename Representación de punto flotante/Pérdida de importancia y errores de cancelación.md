@@ -74,10 +74,13 @@ print(f1(epsMach/8))
 print(f2(epsMach/8))
 print(epsMach/16)
 
+to_fps_double((np.power(2.,-100)*np.power(2.,-1022))/np.power(2.,-200))
+to_fps_double((np.power(2.,-100)/np.power(2.,-200))*np.power(2.,-1022))
+print(int('0b00001100101',2)-1023)
+
 ```
 
-
-  # Conclusiones:
+# Conclusiones:
   - Tanto el Algoritmo 1 como el Algoritmo 2 deben entregar la misma salida en aritmética exacta, sin embargo en aritmética de punto flotante, en este caso utilizando #doublePrecision , entregan un resultado distinto.
   - Si bien uno puede considerar que $o_1=0$ es cercano a $o_2=\epsilon_{\text{mach}}/16$, en realidad son bien distintos. Por ejemplo, es muy distinto multiplicar por $0$ que por un número pequeño pero mayor que $0$, como lo es $\epsilon_{\text{mach}}/16$.
 # Link sugerido

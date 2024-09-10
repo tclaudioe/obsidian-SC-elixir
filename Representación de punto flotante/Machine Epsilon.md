@@ -10,6 +10,9 @@ to_fps_double(x)
 ```run-python
 x = 1.0+np.power(2.,-52)
 to_fps_double(x)
+x = x+np.power(2.,-53)
+to_fps_double(x)
+
 ```
 
 #OK

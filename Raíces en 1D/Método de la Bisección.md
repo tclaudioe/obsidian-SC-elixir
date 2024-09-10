@@ -16,7 +16,10 @@ Una característica importante del método de la bisección es que en cada itera
 - Ejemplo: Búsqueda de la raíz de $f(x)=x-\cos(x)$
 ```run-python
 f = lambda x: x-np.cos(x)
-bisect(f,1e-10,3)
+bisect(f,0,3)
+
+# f = lambda x: np.power(x,2.)-2
+# bisect(f,1,2)
 ```
 
 #OK

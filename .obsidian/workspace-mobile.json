@@ -12,13 +12,8 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROOT - Computación Científica.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true
             },
             "group": "804c3d2f0e4be3d3"
@@ -71,13 +66,8 @@
             "id": "19b13fbf33f5f191",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Raíces en 1D/Método de Newton.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],

@@ -35,8 +35,7 @@ Primero, re-destacar que es una iteración de punto fijo lineal en alta dimensi�
 	A\,\mathbf{x} &= \mathbf{b},\\
 	(L+D+U)\,\mathbf{x} &= \mathbf{b},\\
 	L\,\mathbf{x}+D\,\mathbf{x}+U\,\mathbf{x} &= \mathbf{b}.
-\end{align*}
-$$Ahora solo dejamos el término $D\,\mathbf{x}$ al lado izquierdo y lo demás se muevo al lado derecho,$$
+\end{align*}$$Ahora solo dejamos el término $D\,\mathbf{x}$ al lado izquierdo y lo demás se muevo al lado derecho,$$
 \begin{align*}
 	D\,\mathbf{x}&= \mathbf{b}-L\,\mathbf{x}-U\,\mathbf{x},\\
 	D\,\mathbf{x}&= \mathbf{b}-(L+U)\,\mathbf{x}.
@@ -44,14 +43,12 @@ $$Ahora solo dejamos el término $D\,\mathbf{x}$ al lado izquierdo y lo demás s
 \begin{align*}
 	D^{-1}\,D\,\mathbf{x}&= D^{-1}\,(\mathbf{b}-(L+U)\,\mathbf{x}),\\
 	\mathbf{x}&= D^{-1}\,(\mathbf{b}-(L+U)\,\mathbf{x}).
-\end{align*}
-$$ De lo cual se obtiene la siguiente iteración de punto fijo,$$
+\end{align*}$$ De lo cual se obtiene la siguiente iteración de punto fijo,$$
 \begin{align*}
 	\mathbf{x}_0 &= \text{``dato inicial''},\\
 	\mathbf{x}_{n+1} &= D^{-1}
 	\left( \mathbf{b} - \left( L + U \right) \mathbf{x}_n \right),
-\end{align*}
-$$
+\end{align*}$$
 ## Ventajas
 1. Es un algoritmo iterativo que permite entregar soluciones intermedias a medida que avanza.
 2. Puede demorarse menos que la [[Factorización LU]] o [[Factorización PALU]] si la matriz es muy _diagonal dominante_.

@@ -12,8 +12,8 @@ donde *-* en la 3ra columna representa por lo menos 1 valor del *string* distint
 ```run-python
 x = 1.0/np.power(2.,-1024)
 to_fps_double(x)
-x = np.inf
-to_fps_double(x)
+print(np.inf)
+to_fps_double(np.inf)
 ```
 - Ejemplo 2: $-\infty$
 ```run-python

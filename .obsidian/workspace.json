@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49d4d31937bdef51",
+            "id": "f887fdebc81e16be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md"
+              }
             }
           },
           {
@@ -151,34 +160,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49d4d31937bdef51",
+  "active": "f887fdebc81e16be",
   "lastOpenFiles": [
+    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Eliminación Gaussiana.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
     "ROOT - Computación Científica.md",
-    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
-    "Representación de punto flotante/Regla de redondeo.md",
-    "Representación de punto flotante/Machine Epsilon.md",
-    "Representación de punto flotante/Representación de máquina.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones no-lineales.md",
+    "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
     "Raíces en 1D/Raíces en 1D.md",
     "Raíces en 1D/Método de la Bisección.md",
+    "Raíces en 1D/Método de Newton.md",
+    "Raíces en 1D/Método de la Secante.md",
+    "Raíces en 1D/Convergencia Numérica.md",
+    "Raíces en 1D/Iteración de Punto Fijo.md",
+    "Raíces en 1D/Criterio de detención para búsqueda de raíces 1D.md",
+    "Representación de punto flotante/Representación de máquina.md",
+    "Representación de punto flotante/Regla de redondeo.md",
+    "CONFIG/Z - Plugins necesarios.md",
+    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
+    "Representación de punto flotante/Machine Epsilon.md",
+    "Representación de punto flotante/Bits del exponente solo de 0s.md",
+    "Representación de punto flotante/Bits del exponente solo de 1s.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones no-lineales.md",
     "Algoritmos de integración numérica.md",
     "Ecuaciones diferenciales ordinarias.md",
     "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
-    "Interpolación Polinomial/Interpolación Polinomial.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
-    "Diferencias Finitas.md",
-    "Problemas de Valor de Frontera.md",
-    "Método del Disparo.md",
-    "Problemas de Valor Inicial.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
-    "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
-    "Mínimos Cuadrados/Factorización QR.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
-    "Interpolación Polinomial/Puntos de Chebyshev.md",
     "WordClouds/Apuntes_All.tex.png",
     "WordClouds/09c_BVP.tex.png",
     "WordClouds/09b_IVP.tex.png",
