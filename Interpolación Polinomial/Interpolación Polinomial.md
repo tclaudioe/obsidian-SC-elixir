@@ -33,7 +33,7 @@ plt.show()
 ```
 - En este caso particular la **data** corresponde a la función $\sin(2\,x)$, pero en general: 
 	- No tiene acceso a esa información, es decir, no tiene como saber cómo se generó la **data**.
-	- o incluso si se tuviera la función, podría ser muy costosa evaluarla y sería necesario tener una **versión** menos costosa de evaluar. Por ejemplo, una función que podría considerarse costosa de evaluar es la función Gamma, definida de la siguiente forma, $$\Gamma(x)=\displaystyle\int_0^\infty y^{x-1}\,\exp(-x)\,\mathrm{d}y, \quad \mathrm{Re}(x)>0.$$ En este caso es importante notar que para evaluar $\Gamma(x)$ en un $x$ determinado, se debe evaluar la integral de $0$ a $\infty$.
+	- o incluso si se tuviera la función, podría ser muy costosa evaluarla y sería necesario tener una **versión** menos costosa de evaluar. Por ejemplo, una función que podría considerarse costosa de evaluar es la función Gamma, definida de la siguiente forma, $$\Gamma(x)=\displaystyle\int_0^\infty y^{x-1}\,\exp(-y)\,\mathrm{d}y, \quad \mathrm{Re}(x)>0.$$ En este caso es importante notar que para evaluar $\Gamma(x)$ en un $x$ determinado, se debe evaluar la integral de $0$ a $\infty$.
 - Dado que sabemos cómo se generó la data, podemos comparar la **data**, la aproximación por líneas rectas entre puntos y la función **exacta**,
 ```run-python
 xi = np.linspace(-1,1,5)

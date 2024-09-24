@@ -8,19 +8,72 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f4361dc924de8610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones no-lineales.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f887fdebc81e16be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
+                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6fc356abbb30039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interpolación Polinomial/Interpolación con la matriz de Vandermonde.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c716cc9426481d36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interpolación Polinomial/Interpolación de Lagrange.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93b8d6e928e1ef9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interpolación Polinomial/Interpolación Baricéntrica.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
+                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
+                "file": "Interpolación Polinomial/Interpolación Polinomial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md"
+                "file": "Interpolación Polinomial/Interpolación Polinomial.md"
               }
             }
           },
@@ -162,12 +215,17 @@
   },
   "active": "f887fdebc81e16be",
   "lastOpenFiles": [
+    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones no-lineales.md",
+    "Interpolación Polinomial/Interpolación Polinomial.md",
+    "ROOT - Computación Científica.md",
+    "Interpolación Polinomial/Interpolación Baricéntrica.md",
+    "Interpolación Polinomial/Interpolación de Lagrange.md",
+    "Interpolación Polinomial/Interpolación con la matriz de Vandermonde.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Eliminación Gaussiana.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Forward Substitution.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Backward Substitution.md",
-    "ROOT - Computación Científica.md",
     "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
     "Raíces en 1D/Raíces en 1D.md",
     "Raíces en 1D/Método de la Bisección.md",
@@ -183,11 +241,6 @@
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
     "Representación de punto flotante/Machine Epsilon.md",
     "Representación de punto flotante/Bits del exponente solo de 0s.md",
-    "Representación de punto flotante/Bits del exponente solo de 1s.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones no-lineales.md",
-    "Algoritmos de integración numérica.md",
-    "Ecuaciones diferenciales ordinarias.md",
-    "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
     "WordClouds/Apuntes_All.tex.png",
     "WordClouds/09c_BVP.tex.png",
     "WordClouds/09b_IVP.tex.png",

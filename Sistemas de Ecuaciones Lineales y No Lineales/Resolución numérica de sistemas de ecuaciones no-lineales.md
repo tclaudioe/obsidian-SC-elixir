@@ -13,8 +13,7 @@ $$Ahora, considerando que la raíz es $\mathbf{x}$, entonces sabemos que $\mathb
 $$Descartando los términos de orden superior (lo que implica que ya no obtendremos $\mathbf{x}$ si no una aproximación la cual llamaremos $\mathbf{x}_{i+1}$ ) y despejando obtenemos,$$
 \begin{align*}
 	\mathbf{x}_{i+1} &= \mathbf{x}_{i} - J^{-1}(\mathbf{x}_{i}) \, \mathbf{F}(\mathbf{x}_{i}).
-\end{align*}
-$$Es decir, es análogo al [[Método de Newton]] en 1D pero _traducido_ a alta dimensión.
+\end{align*}$$Es decir, es análogo al [[Método de Newton]] en 1D pero _traducido_ a alta dimensión.
 
 ## Ventajas
 1. Permite aproximar numéricamente soluciones a sistemas de ecuaciones no-lineales.
