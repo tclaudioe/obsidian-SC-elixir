@@ -3,11 +3,11 @@ La interpolación Baricéntrica es otro algoritmo utilizado en interpolación po
 # Previo a la derivación
 - En la [[Interpolación de Lagrange]] se define las siguientes funciones:$$\begin{align*}
 	L_i(x) &=\dfrac{l_i(x)}{l_i(x_i)},\\
-	l_i(x) &=\prod_{k=1,i \neq k}^n (x-x_i) = (x-x_1)\,(x-x_2)\dots(x-x_{i-1})\,(x-x_{i+1})\dots(x-x_n)
+	l_i(x) &=\prod_{k=1,i \neq k}^n (x-x_k) = (x-x_1)\,(x-x_2)\dots(x-x_{i-1})\,(x-x_{i+1})\dots(x-x_n)
 \end{align*}$$
 - Acá se definirán las siguientes generalizaciones:$$
 \begin{align*}
-	l(x) &=\prod_{k=1}^n (x-x_i) = (x-x_1)\,(x-x_2)\dots(x-x_n),\\
+	l(x) &=\prod_{k=1}^n (x-x_k) = (x-x_1)\,(x-x_2)\dots(x-x_n),\\
 	l_i(x) &= \dfrac{l(x)}{x-x_i}.
 \end{align*}$$ Notar que la **generalización** solo re-escribe $l_i(x)$ de una forma distinta, pero representa lo mismo. El único cuidado que hay que tener es cuando se evalúa en $x_i$, en ese caso se debe tomar el límite.
 # Derivación - Caso General

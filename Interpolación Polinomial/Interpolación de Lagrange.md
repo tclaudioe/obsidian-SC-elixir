@@ -25,7 +25,7 @@ $$
 La idea es la misma, pero ahora tendremos $n$ pares ordenados, digamos: $(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)$.
 1. Se define ahora la versión general de las funciones auxiliares $L_i(x)$ de la siguiente forma,$$\begin{align*}
 	L_i(x) &=\dfrac{l_i(x)}{l_i(x_i)},\\
-	l_i(x) &=\prod_{k=1,i \neq k}^n (x-x_i) = (x-x_1)\,(x-x_2)...(x-x_{i-1})\,(x-x_{i+1})\dots(x-x_n)
+	l_i(x) &=\prod_{k=1,i \neq k}^n (x-x_k) = (x-x_1)\,(x-x_2)...(x-x_{i-1})\,(x-x_{i+1})\dots(x-x_n)
 \end{align*}$$
 2. Se construye el interpolador polinomial,$$\begin{align*}
    p_{n-1}(x) &= \sum_{i=1}^n y_i\,L_i(x).
