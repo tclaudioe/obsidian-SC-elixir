@@ -13,14 +13,14 @@ $$\min_{\displaystyle{x_i\in[-1,1]}} \max_{\displaystyle{-1 \leq x \leq 1}} \lef
     		(x-x_1)...(x - x_n) = \dfrac{1}{2^{n-1}} \, T_n(x),
     	\end{equation*}$$donde $T_n(x) = \cos \left(n \, \arccos(x)\right)$ es polinomio de Chebyshev de grado $n$
 
-Para visualizar qué ocurre con la utilización de los puntos de Chebychev en el mismo experimento realizado en el [[Fenómeno de Runge]], donde se observaba oscilaciones en el extremo del intervalos, se repetirá pero utilizando los puntos de Chebychev,
+Para visualizar qué ocurre con la utilización de los puntos de Chebyshev en el mismo experimento realizado en el [[Fenómeno de Runge]], donde se observaba oscilaciones en el extremo del intervalos, se repetirá pero utilizando los puntos de Chebyshev,
 
 ```run-python
 m = 3
 n = 2*m+1
 i = np.arange(1,n+1)
-theta = (2*i-1)*np.pi/(2*n)
-x_cheb = np.cos(theta)
+theta_i = (2*i-1)*np.pi/(2*n)
+x_cheb = np.cos(theta_i)
 y_cheb = np.zeros(n)
 y_cheb[m] = 1
 p = BarycentricInterpolator(x_cheb, y_cheb)

@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "#rootNode",
@@ -88,6 +88,6 @@
   "repelStrength": 14.2423502604167,
   "linkStrength": 1,
   "linkDistance": 301,
-  "scale": 0.7634393309857722,
-  "close": false
+  "scale": 0.789675750500603,
+  "close": true
 }

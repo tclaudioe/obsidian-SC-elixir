@@ -1,1 +1,6 @@
-{}
+{
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "CONFIG/"
+  ]
+}

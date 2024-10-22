@@ -8,10 +8,10 @@ Para entender mejor lo que significa el error que se genera al interpolar una fu
 
 ```run-python
 f = lambda x: 1./(1.+12*np.power(x,2.))
-x_interpolation = np.linspace(-1,1,5)
+x_interpolation = np.linspace(-1,1,51)
 y_interpolation = f(x_interpolation)
 p = BarycentricInterpolator(x_interpolation, y_interpolation)
-xx = np.linspace(-1,1,1000)
+xx = np.linspace(-1,1,10000)
 
 plt.figure(figsize=(4,8))
 plt.subplot(211)
