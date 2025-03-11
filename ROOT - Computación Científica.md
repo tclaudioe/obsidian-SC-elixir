@@ -22,8 +22,8 @@ Organizar las ideas, conceptos y algoritmos discutidos en el curso de Computaci�
 - Estructura de Datos
 - Algoritmos y Complejidad
 - Utilización de bibliotecas avanzadas para manipulación *vectorizada* de vectores y matrices #vectorizacion
-	- [The Beginning](https://github.com/tclaudioe/Scientific-Computing/blob/master/SC1v2/Bonus%20-%2000%20-%20The%20beginning.ipynb) - Jupyter Notebook
-	- [List Comprehension vs NumPy](https://github.com/tclaudioe/Scientific-Computing/blob/master/SC1v2/Bonus%20-%2000%20-%20List%20Comprehension%20vs%20NumPy.ipynb) - Jupyter Notebook
+	- [The Beginning](https://github.com/tclaudioe/Scientific-Computing-V3/blob/main/Bonus%20-%20current/Bonus%20-%2000%20-%20The%20beginning.ipynb) - Jupyter Notebook
+	- [List Comprehension vs NumPy](https://github.com/tclaudioe/Scientific-Computing-V3/blob/main/Bonus%20-%20current/Bonus%20-%2000%20-%20List%20Comprehension%20vs%20NumPy.ipynb) - Jupyter Notebook
 	- [Array programming with NumPy](https://www.nature.com/articles/s41586-020-2649-2) - Paper
 	- [NumPy - Vectorización y Broadcasting](https://www.youtube.com/watch?v=bKNwISYqGRU) - Video
 	- [NumPy Cheat Sheet](https://res.cloudinary.com/dyd911kmh/image/upload/v1676302459/Marketing/Blog/Numpy_Cheat_Sheet.pdf) - Cheatsheet PDF

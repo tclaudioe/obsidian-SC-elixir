@@ -42,7 +42,7 @@ print('np.log2(b):',np.log2(b))
 
 En la práctica multiplicar por $10$ y luego dividir por $10$ en _double precision_ no se cancela exactamente, solo aproximadamente debido a que tenemos una cantidad finita de bits para ser representados computacionalmente.
 # Links sugeridos
-- [Jupyter Notebook de Representación de Punto Flotante](https://github.com/tclaudioe/Scientific-Computing/blob/master/SC1v2/02_floating_point_arithmetic.ipynb)
+- [Jupyter Notebook de Representación de Punto Flotante](https://github.com/tclaudioe/Scientific-Computing-V3/blob/main/02_floating_point_arithmetic.ipynb)
 
 # Temas adicionales relacionados
 - [[Representación de máquina]]

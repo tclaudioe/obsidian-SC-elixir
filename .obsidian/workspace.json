@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ed68d215953f9419",
+        "id": "4f56fa77e9951556",
         "type": "tabs",
         "children": [
           {
-            "id": "8aa74750685dbbb4",
+            "id": "c61dd85f1674fb8f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Problemas de Valor Inicial.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problemas de Valor Inicial"
             }
           }
         ]
@@ -73,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 210.5086555480957
   },
   "right": {
     "id": "118fd27761639276",
@@ -90,16 +94,17 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Diferencias Finitas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Diferencias Finitas"
             }
           },
           {
@@ -155,19 +160,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8aa74750685dbbb4",
+  "active": "c61dd85f1674fb8f",
   "lastOpenFiles": [
-    "CONFIG/Z - Agradecimientos y registro de cambios.md",
-    "CONFIG/Z - Plugins necesarios.md",
-    "ROOT - Computación Científica.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
-    "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
-    "Mínimos Cuadrados/Factorización QR.md",
-    "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
-    "Raíces en 1D/Iteración de Punto Fijo.md",
-    "Raíces en 1D/Raíces en 1D.md",
+    "README.md",
+    "Diferencias Finitas.md",
     "Problemas de Valor Inicial.md",
+    "ROOT - Computación Científica.md",
+    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
+    "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
+    "Representación de punto flotante/Representación de máquina.md",
+    "Representación de punto flotante/Bits del exponente solo de 1s.md",
+    "CONFIG/Z - Plugins necesarios.md",
+    "Representación de punto flotante/Regla de redondeo.md",
+    "Representación de punto flotante/Machine Epsilon.md",
+    "versión numérica.md",
+    "Método del Disparo.md",
+    "Problemas de Valor de Frontera.md",
+    "Ecuaciones diferenciales ordinarias.md",
+    "Algoritmos de integración numérica.md",
+    "Mínimos Cuadrados/Factorización QR.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
+    "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
+    "Sistemas de Ecuaciones Lineales y No Lineales/Eliminación Gaussiana.md",
+    "CONFIG/Z - Agradecimientos y registro de cambios.md",
+    "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
     "WordClouds/02_AritmeticaPuntoFlotante.tex.png",
     "WordClouds/Apuntes_All.tex.png",
     "WordClouds/09b_IVP.tex.png",
@@ -177,11 +197,6 @@
     "WordClouds/06_MinimosCuadrados_y_QR.tex.png",
     "WordClouds/05_Interpolacion.tex.png",
     "WordClouds/04_SistemasEcuacionesLineales.tex.png",
-    "WordClouds/03_Raices1D.tex.png",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Jacobi.md",
-    "Raíces en 1D/Método de la Secante.md",
-    "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "Representación de punto flotante/Representación de máquina.md",
-    "Representación de punto flotante/Bits del exponente solo de 1s.md"
+    "WordClouds/03_Raices1D.tex.png"
   ]
 }

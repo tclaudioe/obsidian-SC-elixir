@@ -84,7 +84,7 @@ print(int('0b00001100101',2)-1023)
   - Tanto el Algoritmo 1 como el Algoritmo 2 deben entregar la misma salida en aritmética exacta, sin embargo en aritmética de punto flotante, en este caso utilizando #doublePrecision , entregan un resultado distinto.
   - Si bien uno puede considerar que $o_1=0$ es cercano a $o_2=\epsilon_{\text{mach}}/16$, en realidad son bien distintos. Por ejemplo, es muy distinto multiplicar por $0$ que por un número pequeño pero mayor que $0$, como lo es $\epsilon_{\text{mach}}/16$.
 # Link sugerido
-- [Ecuación cuadrática](https://github.com/tclaudioe/Scientific-Computing/blob/master/SC1v2/Bonus%20-%2002%20-%20Quadratic%20formula.ipynb)
+- [Ecuación cuadrática](https://github.com/tclaudioe/Scientific-Computing-V3/blob/main/Bonus%20-%20current/Bonus%20-%2002%20-%20Quadratic%20formula.ipynb)
 
 #OK
 #Tema_2
