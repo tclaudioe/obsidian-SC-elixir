@@ -4,25 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "4f56fa77e9951556",
+        "id": "1d4bb91bd508714d",
         "type": "tabs",
         "children": [
           {
-            "id": "c61dd85f1674fb8f",
+            "id": "807666619f062e4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problemas de Valor Inicial.md",
+                "file": "Raíces en 1D/Iteración de Punto Fijo.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Problemas de Valor Inicial"
+              "title": "Iteración de Punto Fijo"
+            }
+          },
+          {
+            "id": "911975ed254deb84",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +54,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -160,22 +174,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c61dd85f1674fb8f",
+  "active": "911975ed254deb84",
   "lastOpenFiles": [
-    "README.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
     "Diferencias Finitas.md",
-    "Problemas de Valor Inicial.md",
+    "Método del Disparo.md",
     "ROOT - Computación Científica.md",
-    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+    "CONFIG/Z - Plugins necesarios.md",
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
     "Representación de punto flotante/Representación de máquina.md",
     "Representación de punto flotante/Bits del exponente solo de 1s.md",
-    "CONFIG/Z - Plugins necesarios.md",
-    "Representación de punto flotante/Regla de redondeo.md",
+    "CONFIG/Z - Agradecimientos y registro de cambios.md",
     "Representación de punto flotante/Machine Epsilon.md",
+    "Problemas de Valor Inicial.md",
+    "README.md",
+    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+    "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
+    "Representación de punto flotante/Regla de redondeo.md",
     "versión numérica.md",
-    "Método del Disparo.md",
     "Problemas de Valor de Frontera.md",
     "Ecuaciones diferenciales ordinarias.md",
     "Algoritmos de integración numérica.md",
@@ -185,9 +201,7 @@
     "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Eliminación Gaussiana.md",
-    "CONFIG/Z - Agradecimientos y registro de cambios.md",
     "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
-    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
     "WordClouds/02_AritmeticaPuntoFlotante.tex.png",
     "WordClouds/Apuntes_All.tex.png",
     "WordClouds/09b_IVP.tex.png",
