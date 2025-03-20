@@ -73,13 +73,24 @@ f2 = lambda x: x/(1+np.sqrt(1-x))
 print(f1(epsMach/8))
 print(f2(epsMach/8))
 print(epsMach/16)
-
-to_fps_double((np.power(2.,-100)*np.power(2.,-1022))/np.power(2.,-200))
-to_fps_double((np.power(2.,-100)/np.power(2.,-200))*np.power(2.,-1022))
-print(int('0b00001100101',2)-1023)
-
 ```
 
+Ahora, considere la versión gráfica del experimento.
+
+```run-python
+f1 = lambda x: 1-np.sqrt(1-x)
+f2 = lambda x: x/(1+np.sqrt(1-x))
+
+x = np.logspace(-50,0,50)
+plt.figure(figsize=(5,5))
+plt.loglog(x,f1(x),'rd',label=r'$f_1(x)=1-\sqrt{1-x}$')
+plt.loglog(x,f2(x),'b.', label=r'$f_2(x)=\dfrac{x}{1+\sqrt{1-x}}$')
+plt.grid(True)
+plt.xlabel('$x$')
+plt.legend(loc='best')
+plt.show()
+```
+En este caso la gráfica de $f_1(x)=1-\sqrt{1-x}$ se muestra con $\text{{\color{red}rombos rojos}}$ y la gráfica de $f_2(x)=\dfrac{x}{1+\sqrt{1-x}}$ con $\text{{\color{blue}puntos azules}}$. El resultado del experimento numérico es claro,$f_1(x)$ falla para valores de $x$ pequeños. En este caso para valores aproximadamente $x\approx10^{-16}$.
 # Conclusiones:
   - Tanto el Algoritmo 1 como el Algoritmo 2 deben entregar la misma salida en aritmética exacta, sin embargo en aritmética de punto flotante, en este caso utilizando #doublePrecision , entregan un resultado distinto.
   - Si bien uno puede considerar que $o_1=0$ es cercano a $o_2=\epsilon_{\text{mach}}/16$, en realidad son bien distintos. Por ejemplo, es muy distinto multiplicar por $0$ que por un número pequeño pero mayor que $0$, como lo es $\epsilon_{\text{mach}}/16$.
