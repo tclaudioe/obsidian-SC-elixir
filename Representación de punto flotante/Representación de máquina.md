@@ -1,8 +1,9 @@
 En #doublePrecision los 64 *bits* se utilizan de la siguiente forma y se denomina *representación normal* #repNormal:
 
-|  $s$ | $e_1\,e_2\,\dots\,e_{11}$| $b_1\,b_2\,\dots\,b_{51}\,b_{52}$|
-|---|------------|------|
-| 1 bit | 11 bits | 52 bits |
+| $s$   | $e_1\,e_2\,\dots\,e_{11}$ | $b_1\,b_2\,\dots\,b_{51}\,b_{52}$ |
+| ----- | ------------------------- | --------------------------------- |
+| 1 bit | 11 bits                   | 52 bits                           |
+|       |                           |                                   |
 donde
 - $s$ corresponde al signo: 0 si es positivo y 1 si es negativo.
 - $e_1\,e_2\,\dots\,e_{11}$ corresponde al exponente: $p=e_{1} \, 2^{10} + e_{2} \, 2^{9}+ e_{3} \, 2^{8} + \dots + e_{11} \, 2^{0} - 1023$. Notar que se excluyen en este caso cuando los *bits* del exponente son todos $0$ o cuando son todos $1$.

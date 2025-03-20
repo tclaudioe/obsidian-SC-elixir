@@ -1,7 +1,7 @@
-**Versión:** ver [[Z - Agradecimientos y registro de cambios]].
+**Versión:** ver [[Agradecimientos y registro de cambios]].
 
 # Readme first!
-- [[Z - Plugins necesarios]]
+- [[Plugins necesarios]]
 
 # Objetivo: 
 Organizar las ideas, conceptos y algoritmos discutidos en el curso de Computación Científica de manera de tener un *big picture* que guíe el aprendizaje.
@@ -49,6 +49,6 @@ Se incluye un WordCloud global y por cada tema para una visualización de una se
 - [Exploring ODEs](https://people.maths.ox.ac.uk/trefethen/Exploring.pdf) - PDF
 
 # Agradecimientos
-[[Z - Agradecimientos y registro de cambios]]
+[[Agradecimientos y registro de cambios]]
 
 #rootNode

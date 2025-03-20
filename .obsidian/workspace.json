@@ -4,38 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "1d4bb91bd508714d",
+        "id": "0c5ccb4a8621cb49",
         "type": "tabs",
         "children": [
           {
-            "id": "807666619f062e4d",
+            "id": "be134cfea9722c25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raíces en 1D/Iteración de Punto Fijo.md",
+                "file": "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Iteración de Punto Fijo"
-            }
-          },
-          {
-            "id": "911975ed254deb84",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "Pérdida de importancia y errores de cancelación"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5086555480957
+    "width": 207.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "118fd27761639276",
@@ -174,34 +162,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "911975ed254deb84",
+  "active": "be134cfea9722c25",
   "lastOpenFiles": [
-    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
-    "Diferencias Finitas.md",
-    "Método del Disparo.md",
     "ROOT - Computación Científica.md",
-    "CONFIG/Z - Plugins necesarios.md",
     "Representación de punto flotante/Estándar de punto flotante IEEE 754.md",
-    "Representación de punto flotante/Representación de máquina.md",
-    "Representación de punto flotante/Bits del exponente solo de 1s.md",
-    "CONFIG/Z - Agradecimientos y registro de cambios.md",
+    "Representación de punto flotante/Regla de redondeo.md",
     "Representación de punto flotante/Machine Epsilon.md",
+    "Representación de punto flotante/Representación de máquina.md",
+    "Representación de punto flotante/Bits del exponente solo de 0s.md",
+    "Representación de punto flotante/Bits del exponente solo de 1s.md",
+    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
+    "Algoritmos de integración numérica.md",
+    "Ecuaciones diferenciales ordinarias.md",
+    "Diferencias Finitas.md",
+    "Problemas de Valor de Frontera.md",
+    "CONFIG/Plugins necesarios.md",
+    "CONFIG/Agradecimientos y registro de cambios.md",
     "Problemas de Valor Inicial.md",
     "README.md",
-    "Representación de punto flotante/Pérdida de importancia y errores de cancelación.md",
-    "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
-    "Representación de punto flotante/Regla de redondeo.md",
     "versión numérica.md",
-    "Problemas de Valor de Frontera.md",
-    "Ecuaciones diferenciales ordinarias.md",
-    "Algoritmos de integración numérica.md",
+    "Método del Disparo.md",
+    "Raíces en 1D/Iteración de Punto Fijo.md",
+    "Mínimos Cuadrados/Mínimos Cuadrados por Minimización.md",
+    "Raíces en 1D/Convergencia de una Iteración de Punto Fijo.md",
     "Mínimos Cuadrados/Factorización QR.md",
     "Mínimos Cuadrados/Mínimos Cuadrados desde el Álgebra Lineal.md",
     "Mínimos Cuadrados/Problemas de Mínimos Cuadrados.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/GMRes.md",
     "Sistemas de Ecuaciones Lineales y No Lineales/Resolución numérica de sistemas de ecuaciones lineales.md",
-    "Sistemas de Ecuaciones Lineales y No Lineales/Eliminación Gaussiana.md",
-    "Mínimos Cuadrados/Ortonormalización de Gram-Schmidt.md",
     "WordClouds/02_AritmeticaPuntoFlotante.tex.png",
     "WordClouds/Apuntes_All.tex.png",
     "WordClouds/09b_IVP.tex.png",

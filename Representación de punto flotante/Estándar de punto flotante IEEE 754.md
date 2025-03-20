@@ -13,7 +13,6 @@
 - El coeficiente $1023$ se corresponde al *shift* utilizado para representar número positivos y negativos del exponente.
 - Los coeficientes binarios $b_i$ y $e_j$ de la mantisa y exponente se definen en función del número a representar.
 - En general si se quiere almacenar el número real $x$ en memoria, solo se puede asegurar que se almacenará  $\text{fl}(x)$ #notacionFL , que corresponde a la aproximación de punto flotante de $x$, por ejemplo si se considera #doublePrecision significa que se usarán los 64 *bits* para almacenar el número más cercano a $x$, es decir $\text{fl}(x)$. #repNormal #repSubNormal.
-
 # Un ejemplo simple de por qué necesitamos estar pendiente de la computación que se haga con _double precision_
 
 ```run-python

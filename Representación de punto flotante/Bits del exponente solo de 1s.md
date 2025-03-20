@@ -1,10 +1,10 @@
 La siguiente tabla resume las opciones de este caso:
 
 | $s$ | $e_1$ $e_2$ $\dots$ $e_{11}$ | $b_1$ $b_2$ $\dots$ $b_{52}$ | lo que representa |
-|--|------------|-----------|-------------------|
-| $0$ | $1$ $1$ $\dots$ $1$ | $0$ $0$ $\dots$ $0$ | $+\infty$ |
-| $1$ | $1$ $1$ $\dots$ $1$ | $0$ $0$ $\dots$ $0$ | $-\infty$ |
-| $1$ | $1$ $1$ $\dots$ $1$ | - - $\dots$ - | NaN |
+| --- | ---------------------------- | ---------------------------- | ----------------- |
+| $0$ | $1$ $1$ $\dots$ $1$          | $0$ $0$ $\dots$ $0$          | $+\infty$         |
+| $1$ | $1$ $1$ $\dots$ $1$          | $0$ $0$ $\dots$ $0$          | $-\infty$         |
+| $1$ | $1$ $1$ $\dots$ $1$          | - - $\dots$ -                | NaN               |
 
 donde *-* en la 3ra columna representa por lo menos 1 valor del *string* distinto de $0$. **En los siguientes ejemplos se observa como se pueden obtener tales casos**.
 
