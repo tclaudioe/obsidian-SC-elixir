@@ -23,7 +23,7 @@ Función $g(x)=\cos(x)$ con *initial guess* $x_0=1.0$.
 ```run-python
 xi = 1.0
 g = lambda x : np.cos(x)
-for i in np.arange(91):
+for i in np.arange(10):
 	xi = g(xi)
 	# if np.mod(i,3) == 0: # Just to show fewer output lines
 	print(xi)
