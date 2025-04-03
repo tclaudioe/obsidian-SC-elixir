@@ -8,7 +8,7 @@ Los criterios de detención de algoritmos de búsqueda de $0$ se basan en las si
 	1. **Ventaja**: El error se adapta a la magnitud de la raíz.
 	2. **Desventaja**: Si la raíz fuera $0$ o muy pequeña podría generar resultados muy grandes en etapas iniciales.
 	3. **Aplicación**: Al igual que el caso anterior se requiere aproximar la raíz de la siguiente forma: $\dfrac{|x_k-r|}{|r|}\approx \dfrac{|x_k-x_{k+1}|}{|x_{k+1}|}<\delta$.
-3.  Otra alternativa es utilizar el #backwardError que en este caso se define como $|f(x_k)-f(r)|=|f(x_a)|$ dado que $f(r)=0$. Es decir, al igual en el caso anterior, uno define un umbral a cumplirse $|f(x_k)|<\varepsilon$.
+3.  Otra alternativa es utilizar el #backwardError que en este caso se define como $|f(x_k)-f(r)|=|f(x_k)|$ dado que $f(r)=0$. Es decir, al igual en el caso anterior, uno define un umbral a cumplirse $|f(x_k)|<\varepsilon$.
 	1. **Ventaja**: No se requiere aproximar $r$.
 	2. **Desventaja**: Si uno considera la expansión de Taylor de $f(x)$ de la siguiente forma, $$f(r)=f(x_k)+f'(c)\,(x_k-r)$$ nos permite obtener la siguiente identidad $$|f(r)-f(x_k)|=|f'(c)|\,|x_k-r|$$ la cual provee la siguiente relación $$\dfrac{|f(r)-f(x_k)|}{|f'(c)|}=|x_k-r|$$ la cual indica que si bien el numerador $|f(r)-f(x_k)|$ puede que sea pequeño, no necesariamente implica que $|x_k-r|$ sea pequeño dado que es afectado por $|f'(c)|$. Es decir, si la función es tiene una pendiente cercana a $0$ cercana a la raíz, implica que tener un valor de $|f(r)-f(x_k)|=|f(x_k)|$ es pequeña, no necesariamente implica que $|x_k-r|$ sea pequeño, y esto último es lo que realmente se quiere. 
 	3. **Aplicación**: Solamente se requiere definir adecuadamente $\varepsilon$.

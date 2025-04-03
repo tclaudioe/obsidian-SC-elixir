@@ -23,10 +23,10 @@ Función $g(x)=\cos(x)$ con *initial guess* $x_0=1.0$.
 ```run-python
 xi = 1.0
 g = lambda x : np.cos(x)
-for i in np.arange(10):
+for i in np.arange(100):
 	xi = g(xi)
 	# if np.mod(i,3) == 0: # Just to show fewer output lines
-	print(xi)
+	print(i,xi)
 ```
 
 La cual genera un **punto fijo** cercano al punto $r\approx0.7390851332151607$.
@@ -57,12 +57,29 @@ plt.show()
 
 ```
 
+
+```run-python
+# Visual version - ejemplo por F. Hernández y  S. Reyes quien lo denominó ejemplo "Trígido".
+
+x0 = 1.0
+g = lambda x : 2*np.cos(x)
+x = fpi_reduced(g,x0,k=100)
+print('x:', x)
+
+f = cobweb2(x,g)
+plt.show()
+
+```
+
+
 ```run-python
 # Visual version
 
 x0 = 1.0
 g = lambda x : 2*np.cos(x)
 G = lambda x : x+(-1/(1+2*np.sin(1)))*(x-g(x))
+print((-1/(1+2*np.sin(1))))
+# G = lambda x : x+(-1/3)*(x-g(x))
 x = fpi_reduced(G,x0,k=10)
 print('x:', x)
 
